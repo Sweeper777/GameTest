@@ -1,0 +1,12 @@
+PODS:
+  - INSpriteKit (1.2.1)
+
+DEPENDENCIES:
+  - INSpriteKit
+
+SPEC CHECKSUMS:
+  INSpriteKit: 90943665f8ea4590989eb4eeb6cad4eb32b3d248
+
+PODFILE CHECKSUM: f9a1fa16c19a08a43c0a8b24eac177a011d5c3da
+
+COCOAPODS: 1.1.0.beta.1

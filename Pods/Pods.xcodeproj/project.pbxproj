@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		088866B820A7D76A31167A34D6347124 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277BBD27ABE15312D57A91049BB28845 /* Foundation.framework */; };
+		1039C58E90763A721908443C1DEC76E8 /* SKEmitterNode+INExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8E13A23D74DE9AD156AA0D1B20FFFD /* SKEmitterNode+INExtension.m */; };
+		11B7228C6042B018F27F39E4E6110CA9 /* INSKTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 35B5D6B14A605347A612E1CC5A4E870F /* INSKTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1755F34B90C7F0611F36D426BBC6FBFB /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7648C2A078524D7EFDEA7EBB28CB03B6 /* SpriteKit.framework */; };
+		1EF19FDA09429C0F5CD86E7E2DD5E6ED /* INSKButtonNode.h in Headers */ = {isa = PBXBuildFile; fileRef = B476CB3DDA88D7054E742E75ED3C4D46 /* INSKButtonNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C9D75BDE0567C091A4946A1D26CD93F /* INSKMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B582A3432794310E1682CA5ADE4B129 /* INSKMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F557BB12A798005EFFE1D2958F0DD09 /* INSpriteKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BA245211C4A0A002E46EF66E78E5D33 /* INSpriteKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F7B5DF2909044267B335AD40012487F /* Pods-GameTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F2D774C87FDE0C252692889CFDFEEA /* Pods-GameTest-dummy.m */; };
+		33EBC621AE5EA750AF7AE50CFC60937D /* INSpriteKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 78DC3B01AACFF0A7966E9E07EEAA2515 /* INSpriteKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		392278DA537E4D6EC49236D1D5A84D38 /* INSKTiledImageNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 39F398EA4F96899787E2588302EF1FCA /* INSKTiledImageNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6702FF6BB3979834D843A283C8B47291 /* INSKOSBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = B27888FF97586D8CD86B375AFD108154 /* INSKOSBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68A69C0A60BD04C4C22CCCCFD9A00729 /* INSKOSBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 062B2438E7931F50722EF9DC5E71FAC0 /* INSKOSBridge.m */; };
+		6F33A3B74C668D6EC581486E120EA4F0 /* INSKButtonNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B30E5402E520FCE56308B957733947 /* INSKButtonNode.m */; };
+		6F38FA4A5A694CE0DA4EC1B0D7984423 /* SKSpriteNode+INExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D125B496A6DB6996C89BE207A5D2140 /* SKSpriteNode+INExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70E8844920148240A16463A89F2F9C89 /* INSKView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E8B22D6097D209A1EE34DE29C05936 /* INSKView.m */; };
+		749A1F005325099262702E6F8E23E74B /* INSpriteKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F08D7DEBC57192B8F761C84E29F5D5B /* INSpriteKit-dummy.m */; };
+		779355C7949781F76B1AD4CCB37394B5 /* SKNode+INExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 2473A522BEB5B4CBEC4138E61B3F54F5 /* SKNode+INExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		786CF19C2A62B32B162CFB21531A760C /* INSKView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A46CEC8184A20B0D1D66D74E11271E7 /* INSKView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84B7940667D29A6927D92DEF3F66F720 /* SKNode+INExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE7EE833CA4C00C8DA774B9B9B3DB3B /* SKNode+INExtension.m */; };
+		8C2E5FF2496236E30F9EAC9EEAA03502 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277BBD27ABE15312D57A91049BB28845 /* Foundation.framework */; };
+		95570D2874E601C83A31ADC0AD19DDCC /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7521B196076A1CD21D4C7B9ACA33A340 /* GLKit.framework */; };
+		B42F0AF61595746D3E8CFF0B667100DD /* SKSpriteNode+INExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB0B736C78738EA04DEEF8C2BEDCEC0 /* SKSpriteNode+INExtension.m */; };
+		C6AAC5E7951BEBD35C9D5A3C79033667 /* INSKScrollNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ABD956BB37436817BF940FB9BAAEA4A /* INSKScrollNode.m */; };
+		CB3FD9B523F797F2A98581F632EEAFB2 /* SKEmitterNode+INExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FB115066B8CA00156FA1431DC5355AC /* SKEmitterNode+INExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2B73FFBC1734296512C0ABB112BDBAA /* Pods-GameTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0892A244D8C71E3FB21A5CCA82B4A39 /* Pods-GameTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F25C538EAAADFF5E60BABDDA3201F822 /* INSKScrollNode.h in Headers */ = {isa = PBXBuildFile; fileRef = BA8E643E178B53E66280C29BC4ADB066 /* INSKScrollNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB6F40F139E3C3B7B70C64F2ADAADAAE /* INSKTiledImageNode.m in Sources */ = {isa = PBXBuildFile; fileRef = E2092817BA123A89C4F16474B3EA0813 /* INSKTiledImageNode.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8E6A0EB5756FD9E408AE8AB05E7A8F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CB6E15E052EB87B3BE419891EABEF75;
+			remoteInfo = INSpriteKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		062B2438E7931F50722EF9DC5E71FAC0 /* INSKOSBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = INSKOSBridge.m; path = INSpriteKit/INSKOSBridge.m; sourceTree = "<group>"; };
+		0A46CEC8184A20B0D1D66D74E11271E7 /* INSKView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INSKView.h; path = INSpriteKit/INSKView.h; sourceTree = "<group>"; };
+		17B30E5402E520FCE56308B957733947 /* INSKButtonNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = INSKButtonNode.m; path = INSpriteKit/INSKButtonNode.m; sourceTree = "<group>"; };
+		17E8B22D6097D209A1EE34DE29C05936 /* INSKView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = INSKView.m; path = INSpriteKit/INSKView.m; sourceTree = "<group>"; };
+		19B549898E323C03B564B11288867856 /* Pods-GameTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GameTest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1FB0B736C78738EA04DEEF8C2BEDCEC0 /* SKSpriteNode+INExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SKSpriteNode+INExtension.m"; path = "INSpriteKit/SKSpriteNode+INExtension.m"; sourceTree = "<group>"; };
+		1FB115066B8CA00156FA1431DC5355AC /* SKEmitterNode+INExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SKEmitterNode+INExtension.h"; path = "INSpriteKit/SKEmitterNode+INExtension.h"; sourceTree = "<group>"; };
+		2473A522BEB5B4CBEC4138E61B3F54F5 /* SKNode+INExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SKNode+INExtension.h"; path = "INSpriteKit/SKNode+INExtension.h"; sourceTree = "<group>"; };
+		277BBD27ABE15312D57A91049BB28845 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2D841B62ED34F11F6CC28128E3168B27 /* Pods-GameTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GameTest.release.xcconfig"; sourceTree = "<group>"; };
+		2EE7EE833CA4C00C8DA774B9B9B3DB3B /* SKNode+INExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SKNode+INExtension.m"; path = "INSpriteKit/SKNode+INExtension.m"; sourceTree = "<group>"; };
+		35B5D6B14A605347A612E1CC5A4E870F /* INSKTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INSKTypes.h; path = INSpriteKit/INSKTypes.h; sourceTree = "<group>"; };
+		39F398EA4F96899787E2588302EF1FCA /* INSKTiledImageNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INSKTiledImageNode.h; path = INSpriteKit/INSKTiledImageNode.h; sourceTree = "<group>"; };
+		5BE57C9BE42E38CC6F38373E4AAD12B8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DAEBA0E628DD2731C251BFD26729518 /* Pods-GameTest-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GameTest-resources.sh"; sourceTree = "<group>"; };
+		6AB943B1F697002FB65F21159C67B4ED /* Pods-GameTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GameTest.debug.xcconfig"; sourceTree = "<group>"; };
+		6BA245211C4A0A002E46EF66E78E5D33 /* INSpriteKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "INSpriteKit-umbrella.h"; sourceTree = "<group>"; };
+		738E7DF9BA492EC117AFFA13CBCCF20B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7521B196076A1CD21D4C7B9ACA33A340 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/GLKit.framework; sourceTree = DEVELOPER_DIR; };
+		7648C2A078524D7EFDEA7EBB28CB03B6 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/SpriteKit.framework; sourceTree = DEVELOPER_DIR; };
+		78DC3B01AACFF0A7966E9E07EEAA2515 /* INSpriteKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INSpriteKit.h; path = INSpriteKit/INSpriteKit.h; sourceTree = "<group>"; };
+		81F2D774C87FDE0C252692889CFDFEEA /* Pods-GameTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GameTest-dummy.m"; sourceTree = "<group>"; };
+		8B582A3432794310E1682CA5ADE4B129 /* INSKMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INSKMath.h; path = INSpriteKit/INSKMath.h; sourceTree = "<group>"; };
+		8D125B496A6DB6996C89BE207A5D2140 /* SKSpriteNode+INExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SKSpriteNode+INExtension.h"; path = "INSpriteKit/SKSpriteNode+INExtension.h"; sourceTree = "<group>"; };
+		8D8E13A23D74DE9AD156AA0D1B20FFFD /* SKEmitterNode+INExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SKEmitterNode+INExtension.m"; path = "INSpriteKit/SKEmitterNode+INExtension.m"; sourceTree = "<group>"; };
+		8F08D7DEBC57192B8F761C84E29F5D5B /* INSpriteKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "INSpriteKit-dummy.m"; sourceTree = "<group>"; };
+		90A37A0A8E60E7E4D7280E4EE1493605 /* INSpriteKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = INSpriteKit.xcconfig; sourceTree = "<group>"; };
+		90CCF8FABB36A85B511ACCB0CDA8BFED /* Pods_GameTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GameTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93443CB42250C53694E44BEC48E9A2AC /* Pods-GameTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GameTest.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9ABD956BB37436817BF940FB9BAAEA4A /* INSKScrollNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = INSKScrollNode.m; path = INSpriteKit/INSKScrollNode.m; sourceTree = "<group>"; };
+		9C3ABE0DB08D08DAE1BE50ABC3C38E6A /* Pods-GameTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GameTest-acknowledgements.plist"; sourceTree = "<group>"; };
+		AE215897AD30441694DB4DE057CAB880 /* INSpriteKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = INSpriteKit.modulemap; sourceTree = "<group>"; };
+		B0892A244D8C71E3FB21A5CCA82B4A39 /* Pods-GameTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GameTest-umbrella.h"; sourceTree = "<group>"; };
+		B27888FF97586D8CD86B375AFD108154 /* INSKOSBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INSKOSBridge.h; path = INSpriteKit/INSKOSBridge.h; sourceTree = "<group>"; };
+		B476CB3DDA88D7054E742E75ED3C4D46 /* INSKButtonNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INSKButtonNode.h; path = INSpriteKit/INSKButtonNode.h; sourceTree = "<group>"; };
+		B69EDCD7443485CB60B2B14D81BCCB8B /* INSpriteKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = INSpriteKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA875345A7C37F6609A37FC0B5A0FCAF /* Pods-GameTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GameTest-frameworks.sh"; sourceTree = "<group>"; };
+		BA8E643E178B53E66280C29BC4ADB066 /* INSKScrollNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INSKScrollNode.h; path = INSpriteKit/INSKScrollNode.h; sourceTree = "<group>"; };
+		CD65A25CF7BE36C1B5491950FC6475A7 /* INSpriteKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "INSpriteKit-prefix.pch"; sourceTree = "<group>"; };
+		E2092817BA123A89C4F16474B3EA0813 /* INSKTiledImageNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = INSKTiledImageNode.m; path = INSpriteKit/INSKTiledImageNode.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6157424474027FE955AFCA1C512C7260 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				088866B820A7D76A31167A34D6347124 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FCD53B4B97A3724B24A2706575985C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C2E5FF2496236E30F9EAC9EEAA03502 /* Foundation.framework in Frameworks */,
+				95570D2874E601C83A31ADC0AD19DDCC /* GLKit.framework in Frameworks */,
+				1755F34B90C7F0611F36D426BBC6FBFB /* SpriteKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B43F89C27024079AB77F6F5CC8112818 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B57AB9DA66CA52D63BEBCF4D6369953 /* INSpriteKit */ = {
+			isa = PBXGroup;
+			children = (
+				B476CB3DDA88D7054E742E75ED3C4D46 /* INSKButtonNode.h */,
+				17B30E5402E520FCE56308B957733947 /* INSKButtonNode.m */,
+				8B582A3432794310E1682CA5ADE4B129 /* INSKMath.h */,
+				B27888FF97586D8CD86B375AFD108154 /* INSKOSBridge.h */,
+				062B2438E7931F50722EF9DC5E71FAC0 /* INSKOSBridge.m */,
+				BA8E643E178B53E66280C29BC4ADB066 /* INSKScrollNode.h */,
+				9ABD956BB37436817BF940FB9BAAEA4A /* INSKScrollNode.m */,
+				39F398EA4F96899787E2588302EF1FCA /* INSKTiledImageNode.h */,
+				E2092817BA123A89C4F16474B3EA0813 /* INSKTiledImageNode.m */,
+				35B5D6B14A605347A612E1CC5A4E870F /* INSKTypes.h */,
+				0A46CEC8184A20B0D1D66D74E11271E7 /* INSKView.h */,
+				17E8B22D6097D209A1EE34DE29C05936 /* INSKView.m */,
+				78DC3B01AACFF0A7966E9E07EEAA2515 /* INSpriteKit.h */,
+				1FB115066B8CA00156FA1431DC5355AC /* SKEmitterNode+INExtension.h */,
+				8D8E13A23D74DE9AD156AA0D1B20FFFD /* SKEmitterNode+INExtension.m */,
+				2473A522BEB5B4CBEC4138E61B3F54F5 /* SKNode+INExtension.h */,
+				2EE7EE833CA4C00C8DA774B9B9B3DB3B /* SKNode+INExtension.m */,
+				8D125B496A6DB6996C89BE207A5D2140 /* SKSpriteNode+INExtension.h */,
+				1FB0B736C78738EA04DEEF8C2BEDCEC0 /* SKSpriteNode+INExtension.m */,
+				D5E880A82CC2C71AD01D0542DD63D221 /* Support Files */,
+			);
+			path = INSpriteKit;
+			sourceTree = "<group>";
+		};
+		735099986A253CA342D1FF0A781695F5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C186C8D772D2F47097D5D4064CD4F8E1 /* Pods-GameTest */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7D6D4A10D4A1194A40DCEBA7C5C0EDA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B69EDCD7443485CB60B2B14D81BCCB8B /* INSpriteKit.framework */,
+				90CCF8FABB36A85B511ACCB0CDA8BFED /* Pods_GameTest.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				EE110E8677AA2D0C5D86E19152B3BBBA /* Pods */,
+				7D6D4A10D4A1194A40DCEBA7C5C0EDA0 /* Products */,
+				735099986A253CA342D1FF0A781695F5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B43F89C27024079AB77F6F5CC8112818 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				277BBD27ABE15312D57A91049BB28845 /* Foundation.framework */,
+				7521B196076A1CD21D4C7B9ACA33A340 /* GLKit.framework */,
+				7648C2A078524D7EFDEA7EBB28CB03B6 /* SpriteKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C186C8D772D2F47097D5D4064CD4F8E1 /* Pods-GameTest */ = {
+			isa = PBXGroup;
+			children = (
+				5BE57C9BE42E38CC6F38373E4AAD12B8 /* Info.plist */,
+				93443CB42250C53694E44BEC48E9A2AC /* Pods-GameTest.modulemap */,
+				19B549898E323C03B564B11288867856 /* Pods-GameTest-acknowledgements.markdown */,
+				9C3ABE0DB08D08DAE1BE50ABC3C38E6A /* Pods-GameTest-acknowledgements.plist */,
+				81F2D774C87FDE0C252692889CFDFEEA /* Pods-GameTest-dummy.m */,
+				BA875345A7C37F6609A37FC0B5A0FCAF /* Pods-GameTest-frameworks.sh */,
+				5DAEBA0E628DD2731C251BFD26729518 /* Pods-GameTest-resources.sh */,
+				B0892A244D8C71E3FB21A5CCA82B4A39 /* Pods-GameTest-umbrella.h */,
+				6AB943B1F697002FB65F21159C67B4ED /* Pods-GameTest.debug.xcconfig */,
+				2D841B62ED34F11F6CC28128E3168B27 /* Pods-GameTest.release.xcconfig */,
+			);
+			name = "Pods-GameTest";
+			path = "Target Support Files/Pods-GameTest";
+			sourceTree = "<group>";
+		};
+		D5E880A82CC2C71AD01D0542DD63D221 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				738E7DF9BA492EC117AFFA13CBCCF20B /* Info.plist */,
+				AE215897AD30441694DB4DE057CAB880 /* INSpriteKit.modulemap */,
+				90A37A0A8E60E7E4D7280E4EE1493605 /* INSpriteKit.xcconfig */,
+				8F08D7DEBC57192B8F761C84E29F5D5B /* INSpriteKit-dummy.m */,
+				CD65A25CF7BE36C1B5491950FC6475A7 /* INSpriteKit-prefix.pch */,
+				6BA245211C4A0A002E46EF66E78E5D33 /* INSpriteKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/INSpriteKit";
+			sourceTree = "<group>";
+		};
+		EE110E8677AA2D0C5D86E19152B3BBBA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B57AB9DA66CA52D63BEBCF4D6369953 /* INSpriteKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		26F2758F9AA8C486F81D07B766277CF4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2B73FFBC1734296512C0ABB112BDBAA /* Pods-GameTest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C0A84C2202BC04CABB08E09CF4137D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EF19FDA09429C0F5CD86E7E2DD5E6ED /* INSKButtonNode.h in Headers */,
+				2C9D75BDE0567C091A4946A1D26CD93F /* INSKMath.h in Headers */,
+				6702FF6BB3979834D843A283C8B47291 /* INSKOSBridge.h in Headers */,
+				F25C538EAAADFF5E60BABDDA3201F822 /* INSKScrollNode.h in Headers */,
+				392278DA537E4D6EC49236D1D5A84D38 /* INSKTiledImageNode.h in Headers */,
+				11B7228C6042B018F27F39E4E6110CA9 /* INSKTypes.h in Headers */,
+				786CF19C2A62B32B162CFB21531A760C /* INSKView.h in Headers */,
+				2F557BB12A798005EFFE1D2958F0DD09 /* INSpriteKit-umbrella.h in Headers */,
+				33EBC621AE5EA750AF7AE50CFC60937D /* INSpriteKit.h in Headers */,
+				CB3FD9B523F797F2A98581F632EEAFB2 /* SKEmitterNode+INExtension.h in Headers */,
+				779355C7949781F76B1AD4CCB37394B5 /* SKNode+INExtension.h in Headers */,
+				6F38FA4A5A694CE0DA4EC1B0D7984423 /* SKSpriteNode+INExtension.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2954D82C43C70B04CB0B2048EE8BE290 /* Pods-GameTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B72CF7A44D10349FD73D603B0199A2E9 /* Build configuration list for PBXNativeTarget "Pods-GameTest" */;
+			buildPhases = (
+				0A6CD755FEC38F37A68B697893B29F8D /* Sources */,
+				6157424474027FE955AFCA1C512C7260 /* Frameworks */,
+				26F2758F9AA8C486F81D07B766277CF4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37DADD73B7ACA8D9EE2036C0D4DFDB04 /* PBXTargetDependency */,
+			);
+			name = "Pods-GameTest";
+			productName = "Pods-GameTest";
+			productReference = 90CCF8FABB36A85B511ACCB0CDA8BFED /* Pods_GameTest.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6CB6E15E052EB87B3BE419891EABEF75 /* INSpriteKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 220345FCDC6E280F401B6F4C98F91384 /* Build configuration list for PBXNativeTarget "INSpriteKit" */;
+			buildPhases = (
+				AE2D7E560A6F1F668A7EC54A1477727A /* Sources */,
+				7FCD53B4B97A3724B24A2706575985C1 /* Frameworks */,
+				40C0A84C2202BC04CABB08E09CF4137D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = INSpriteKit;
+			productName = INSpriteKit;
+			productReference = B69EDCD7443485CB60B2B14D81BCCB8B /* INSpriteKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 7D6D4A10D4A1194A40DCEBA7C5C0EDA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CB6E15E052EB87B3BE419891EABEF75 /* INSpriteKit */,
+				2954D82C43C70B04CB0B2048EE8BE290 /* Pods-GameTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A6CD755FEC38F37A68B697893B29F8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F7B5DF2909044267B335AD40012487F /* Pods-GameTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE2D7E560A6F1F668A7EC54A1477727A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F33A3B74C668D6EC581486E120EA4F0 /* INSKButtonNode.m in Sources */,
+				68A69C0A60BD04C4C22CCCCFD9A00729 /* INSKOSBridge.m in Sources */,
+				C6AAC5E7951BEBD35C9D5A3C79033667 /* INSKScrollNode.m in Sources */,
+				FB6F40F139E3C3B7B70C64F2ADAADAAE /* INSKTiledImageNode.m in Sources */,
+				70E8844920148240A16463A89F2F9C89 /* INSKView.m in Sources */,
+				749A1F005325099262702E6F8E23E74B /* INSpriteKit-dummy.m in Sources */,
+				1039C58E90763A721908443C1DEC76E8 /* SKEmitterNode+INExtension.m in Sources */,
+				84B7940667D29A6927D92DEF3F66F720 /* SKNode+INExtension.m in Sources */,
+				B42F0AF61595746D3E8CFF0B667100DD /* SKSpriteNode+INExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37DADD73B7ACA8D9EE2036C0D4DFDB04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = INSpriteKit;
+			target = 6CB6E15E052EB87B3BE419891EABEF75 /* INSpriteKit */;
+			targetProxy = F8E6A0EB5756FD9E408AE8AB05E7A8F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67CF273EA5C6D36BBB252FDE36B0EC04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D841B62ED34F11F6CC28128E3168B27 /* Pods-GameTest.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GameTest/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GameTest/Pods-GameTest.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GameTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7E15A5C910BB2BC8A950BD11239C1792 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90A37A0A8E60E7E4D7280E4EE1493605 /* INSpriteKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/INSpriteKit/INSpriteKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/INSpriteKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/INSpriteKit/INSpriteKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = INSpriteKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A599473811A7005B4C53DF2D33A5D1CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AB943B1F697002FB65F21159C67B4ED /* Pods-GameTest.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GameTest/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GameTest/Pods-GameTest.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GameTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E4CA1A5C44EC7FC5DEF0D3CB21F4705C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90A37A0A8E60E7E4D7280E4EE1493605 /* INSpriteKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/INSpriteKit/INSpriteKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/INSpriteKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/INSpriteKit/INSpriteKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = INSpriteKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		220345FCDC6E280F401B6F4C98F91384 /* Build configuration list for PBXNativeTarget "INSpriteKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E15A5C910BB2BC8A950BD11239C1792 /* Debug */,
+				E4CA1A5C44EC7FC5DEF0D3CB21F4705C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B72CF7A44D10349FD73D603B0199A2E9 /* Build configuration list for PBXNativeTarget "Pods-GameTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A599473811A7005B4C53DF2D33A5D1CD /* Debug */,
+				67CF273EA5C6D36BBB252FDE36B0EC04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module INSpriteKit {
+  umbrella header "INSpriteKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
