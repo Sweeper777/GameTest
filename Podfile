@@ -6,5 +6,6 @@ target 'GameTest' do
   use_frameworks!
 
   pod 'INSpriteKit'
+  pod 'HLSpriteKit'
 
 end

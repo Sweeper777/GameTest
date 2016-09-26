@@ -1,12 +1,15 @@
 PODS:
+  - HLSpriteKit (1.0.0)
   - INSpriteKit (1.2.1)
 
 DEPENDENCIES:
+  - HLSpriteKit
   - INSpriteKit
 
 SPEC CHECKSUMS:
+  HLSpriteKit: 6e1be7876cac3c81d1faf833d1216fb0937fe189
   INSpriteKit: 90943665f8ea4590989eb4eeb6cad4eb32b3d248
 
-PODFILE CHECKSUM: f9a1fa16c19a08a43c0a8b24eac177a011d5c3da
+PODFILE CHECKSUM: 3ee01bbe81b53de8e1d999c35f35a2c36d808048
 
 COCOAPODS: 1.1.0.beta.1

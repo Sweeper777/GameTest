@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>HLSpriteKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>INSpriteKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -17,12 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>2954D82C43C70B04CB0B2048EE8BE290</key>
+		<key>6CB6E15E052EB87B3BE419891EABEF75</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6CB6E15E052EB87B3BE419891EABEF75</key>
+		<key>766377A7EEB10E20F211E27AA64BAB1D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8E13EF1F31F07CD75ABEEE3DB4F4387E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
