@@ -5,6 +5,7 @@ import HLSpriteKit
 
 class GameScene: SKScene {
     var swipeUpRecog: UISwipeGestureRecognizer!
+    var button: HLLabelButtonNode!
     
     override func didMove(to view: SKView) {
         let grid = HLGridNode(gridWidth: 4, squareCount: 16, anchorPoint: CGPoint(x: 0.5, y: 0.5), layoutMode: .fill, squareSize: CGSize(width: 100, height: 100), backgroundBorderSize: 1, squareSeparatorSize: 2)
@@ -14,7 +15,7 @@ class GameScene: SKScene {
         swipeUpRecog = UISwipeGestureRecognizer(target: self, action: #selector(swipedUp))
         swipeUpRecog.direction = .up
         self.view!.addGestureRecognizer(swipeUpRecog)
-        let button = HLLabelButtonNode(color: UIColor.green, size: CGSize(width: 300, height: 100))!
+        button = HLLabelButtonNode(color: UIColor.green, size: CGSize(width: 300, height: 100))!
         button.text = "Press Me!"
         button.fontSize = 50
         button.position = CGPoint(x: 0, y: 250)
@@ -28,5 +29,11 @@ class GameScene: SKScene {
     
     func swipedUp(sender: AnyObject) {
         print("Swiped up!")
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        let message = HLMessageNode(color: UIColor.red, size: CGSize(width: 250, height: 250))
+//        self.addChild(message!)
+        message?.showMessage("Hello!", parent: self)
     }
 }
