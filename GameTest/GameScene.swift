@@ -8,7 +8,7 @@ class GameScene: SKScene {
     var button: HLLabelButtonNode!
     
     override func didMove(to view: SKView) {
-        self.hlSetLayoutManager(HLTableLayoutManager(columnCount: 1, columnWidths: [(0.0)], columnAnchorPoints: [(0.0)], rowHeights: [(0.0)]))
+        self.hlSetLayoutManager(HLTableLayoutManager(columnCount: 1, columnWidths: [(0.0)], columnAnchorPoints: [NSValue(cgPoint: CGPoint(x: 0.5, y: 0.5))], rowHeights: [(0.0)]))
         
         let bannerNode = SKLabelNode(text: "some text")
         bannerNode.fontSize = 50
