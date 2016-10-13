@@ -4,45 +4,31 @@ import INSpriteKit
 import HLSpriteKit
 
 class GameScene: SKScene {
-    var swipeUpRecog: UISwipeGestureRecognizer!
-    var button: HLLabelButtonNode!
     
     override func didMove(to view: SKView) {
-        self.hlSetLayoutManager(HLTableLayoutManager(columnCount: 1, columnWidths: [(0.0)], columnAnchorPoints: [NSValue(cgPoint: CGPoint(x: 0.5, y: 0.5))], rowHeights: [(0.0)]))
+        let anchorPoint = NSValue(cgPoint: CGPoint(x: 0.5, y: 0.5))
+        let scoreboardNode = SKSpriteNode(color: UIColor.yellow.withAlphaComponent(0.77), size: CGSize(width: 700, height: 180))
+        scoreboardNode.zPosition = 1001
+        let scoreboardTableLayout = HLTableLayoutManager(columnCount: 1, columnWidths: [(0.0)], columnAnchorPoints: [anchorPoint], rowHeights: [(0.0)])!
+        scoreboardTableLayout.rowSeparator = 15
+        scoreboardNode.hlSetLayoutManager(scoreboardTableLayout)
         
-        let bannerNode = SKLabelNode(text: "some text")
-        bannerNode.fontSize = 50
-        self.addChild(bannerNode)
+        let scoreLabel = SKLabelNode(text: "SCORE:            0")
+        scoreLabel.fontSize = 61
+        scoreLabel.fontName = "Courier-Bold"
+        scoreLabel.horizontalAlignmentMode = .center
+        scoreLabel.fontColor = UIColor.black
+        scoreboardNode.addChild(scoreLabel)
         
-        let grid = HLGridNode(gridWidth: 10, squareCount: 200, anchorPoint: CGPoint(x: 0.5, y: 0.5), layoutMode: .fill, squareSize: CGSize(width: 40, height: 40), backgroundBorderSize: 1, squareSeparatorSize: 2)
-//        grid?.backgroundColor = UIColor.white
-        (grid!.squareNode(forSquare: 0) as! HLBackdropItemNode).normalColor = UIColor.blue
-        self.addChild(grid!)
+        let bestScoreLabel = SKLabelNode(text: "BEST:             0")
+        bestScoreLabel.fontSize = 61
+        bestScoreLabel.horizontalAlignmentMode = .center
+        bestScoreLabel.fontName = "Courier-Bold"
+        bestScoreLabel.fontColor = UIColor.black
+        scoreboardNode.addChild(bestScoreLabel)
         
-        swipeUpRecog = UISwipeGestureRecognizer(target: self, action: #selector(swipedUp))
-        swipeUpRecog.direction = .up
-        self.view!.addGestureRecognizer(swipeUpRecog)
-        button = HLLabelButtonNode(color: UIColor.green, size: CGSize(width: 300, height: 100))!
-        button.text = "Press Me!"
-        button.fontSize = 50
-        button.position = CGPoint(x: 0, y: 250)
-        self.addChild(button)
+        scoreboardNode.hlLayoutChildren()
         
-        self.hlLayoutChildren()
-    }
-    
-    func buttonTapped(sender: AnyObject) {
-        print("Tapped Button!")
-        print(sender)
-    }
-    
-    func swipedUp(sender: AnyObject) {
-        print("Swiped up!")
-    }
-    
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        let message = HLMessageNode(color: UIColor.red, size: CGSize(width: 250, height: 250))
-//        self.addChild(message!)
-        message?.showMessage("Hello!", parent: self)
+        self.addChild(scoreboardNode)
     }
 }
