@@ -7,94 +7,98 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		003B19AC089D702B0D8CAF7BF524E899 /* HLRingNode.m in Sources */ = {isa = PBXBuildFile; fileRef = F4548F44A8A1976042D85C052F97B33B /* HLRingNode.m */; };
-		0467651062DFFB28A2E380BC8F615F89 /* SKNode+HLGestureTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FED050F457352F236F806AFCDB486A4 /* SKNode+HLGestureTarget.m */; };
-		0835673F320EDCEC07B94B1ECB315A36 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A958D9F28EBB465723B96A95AEAD3DDE /* UIKit.framework */; };
-		0CD23164FB6B32112E3AF7B3C2A9DAB9 /* HLError.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A27BEC05A70A9EB3E1077F611BF8E43 /* HLError.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0EF1C3600BDDBB5D41FB526C54DF8643 /* HLGridNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DE068C018BC5BEBC79C3098A6293491 /* HLGridNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1039C58E90763A721908443C1DEC76E8 /* SKEmitterNode+INExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A773F2F867D477E98905B7F9AC80F268 /* SKEmitterNode+INExtension.m */; };
-		11B7228C6042B018F27F39E4E6110CA9 /* INSKTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E81E83A93A99100BBC638C0AFD0D7DD /* INSKTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		150F4B9EC91339CA1A6548FA98E74BE1 /* SKLabelNode+HLLabelNodeAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 978CBD55912941A44FD354C1673C7492 /* SKLabelNode+HLLabelNodeAdditions.m */; };
+		01624A0FC914FE59A5B995735C7EBF8B /* HLGridNode.h in Headers */ = {isa = PBXBuildFile; fileRef = CF78002255885A769536BE48E1CA37AB /* HLGridNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		037ED6D00AEF54A797951381207537EE /* HLOutlineLayoutManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D5580B7425BF20E4EE040EAE25601D0 /* HLOutlineLayoutManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		039F8C141D032232AD9E43B26B0C1D14 /* HLItemsNode.h in Headers */ = {isa = PBXBuildFile; fileRef = F540096C79C220F0A227AD450388F697 /* HLItemsNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0721FFADBD6BE31025392073955DC6D5 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96FE16597E73F4EB312E57563C0271A8 /* SpriteKit.framework */; };
+		079AAF58B8C8C555919B6830ABBD58F4 /* HLToolbarNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E8DF3055C1EAB60053ACAF4C967C6B /* HLToolbarNode.m */; };
+		1039C58E90763A721908443C1DEC76E8 /* SKEmitterNode+INExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB1B92828EC8877EBB219D631E0F2D7 /* SKEmitterNode+INExtension.m */; };
+		1118A21F614B0B6B6CD4532582C1C6A7 /* HLTableLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE4A29C2A2C5F491F274A5ADB520218 /* HLTableLayoutManager.m */; };
+		11B7228C6042B018F27F39E4E6110CA9 /* INSKTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 236E45762AD5A8D30BFE02C85173CB0B /* INSKTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14687F43E11EDB0850E755E362CCC3B5 /* HLGridLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3CAEFF8FCD88B44CE4CA87A0B35220 /* HLGridLayoutManager.m */; };
+		150942B1B44E159DFBC47874955C23C9 /* HLMenuNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1544B653FE1CC9E6F50263B1963CDCE5 /* HLMenuNode.m */; };
+		173AF565410C197A7491205A195AE1DE /* HLLabelButtonNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B8DDCB537009182A4E82D7F67FA93F3 /* HLLabelButtonNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1755F34B90C7F0611F36D426BBC6FBFB /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96FE16597E73F4EB312E57563C0271A8 /* SpriteKit.framework */; };
-		18AD563BD4424804A7453688F6B99F26 /* HLScrollNode.m in Sources */ = {isa = PBXBuildFile; fileRef = FD79D35EFD7C0373DEE8C21C347C11E2 /* HLScrollNode.m */; };
-		1D77E9223DF6EF8CE9450A749D18F91D /* HLOutlineLayoutManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E1895A7AA6E6D289B774CC6118342FAB /* HLOutlineLayoutManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1EF19FDA09429C0F5CD86E7E2DD5E6ED /* INSKButtonNode.h in Headers */ = {isa = PBXBuildFile; fileRef = BD947E5D9733012AE74B087C47A33058 /* INSKButtonNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1FB58E51DB203AEC1CBEFB0C9737D06E /* SKNode+HLLayoutManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E58453864979446F34E330360774BB39 /* SKNode+HLLayoutManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		20C8A591FA8696C47B75DE97AEB5E841 /* HLGestureTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = C2259AFAA99E4FF6A2429218FA41E455 /* HLGestureTarget.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2181CAC2109E06A839E773E2DA24D3F8 /* HLTiledNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 37007FF6896A307B26D3619B368394F3 /* HLTiledNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2818D42DA09B3119B8EC8FE4CB78E532 /* HLTableLayoutManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FADFC89B557EF65FEB02DFAA2981C5B4 /* HLTableLayoutManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		28A8853703AF34D876B1CD03041187FC /* HLRingLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9F3302AF28A7944D60D9CFBD6F20FD /* HLRingLayoutManager.m */; };
-		2C846E26FC8100C6DC637BDA07AB50C1 /* HLRingLayoutManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C284EBFC150A86702A7D20F2BB3B259A /* HLRingLayoutManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2C9D75BDE0567C091A4946A1D26CD93F /* INSKMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 4054E097B5CD058C21A6D9D963CA8BD7 /* INSKMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2D69DF76ED525B4AFECB3D4A1B2DBC25 /* HLToolbarNode.h in Headers */ = {isa = PBXBuildFile; fileRef = D401997544A55B50C4C469E1DDA3CC42 /* HLToolbarNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2F557BB12A798005EFFE1D2958F0DD09 /* INSpriteKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6488082C65667D0D70BDFDBF9547F7D6 /* INSpriteKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		31F9BC2A11926A49F46377F18A75D928 /* HLScene.h in Headers */ = {isa = PBXBuildFile; fileRef = 487EF28C90259C985D0BD1C81D82FBAD /* HLScene.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		33DC03D641C2102FA0180B9533BDE8E5 /* HLOutlineLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DDD84D11C150973E7E3A39A6A774E1A /* HLOutlineLayoutManager.m */; };
-		33EBC621AE5EA750AF7AE50CFC60937D /* INSpriteKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 9759F81FBFA25E1D177F00E61A9BD418 /* INSpriteKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		34F398EE15161EF11B806B949EAF19CA /* HLMenuNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 296D9515357457828C10047202C1F91D /* HLMenuNode.m */; };
-		392278DA537E4D6EC49236D1D5A84D38 /* INSKTiledImageNode.h in Headers */ = {isa = PBXBuildFile; fileRef = FC62B5D6EFD7AEFB7527FD430CF5B600 /* INSKTiledImageNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3D37540678634C57C5A738D2D1691397 /* HLItemsNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BE276D09F0CA617271CE9A1C69A4059 /* HLItemsNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		41DAD2340181913FF43074C68A54A5C8 /* HLGridNode.m in Sources */ = {isa = PBXBuildFile; fileRef = CECE1CE6AA173A99F08399D77C52905B /* HLGridNode.m */; };
-		442F483ADA02D4D6C09FE8E856778E27 /* HLMenuNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E748BDCAE44039B45644689A67D985C /* HLMenuNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		451C11B6C95E05422AABB5041C0E4214 /* HLSpriteKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E4684F241A05A5D156383FC868DFDA /* HLSpriteKit-dummy.m */; };
-		471D1519A0EEDC10206AD17BB9EC9EA9 /* HLLayoutManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DF8C105B6334F79BD55EEA9D2A21FE83 /* HLLayoutManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		47B5F05B66E7F4C32882E35D2AFB1EF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7C35DD69BFB9DC9AC58ABF52C9C0ED3 /* Foundation.framework */; };
-		4AE92589B0F90A861E39F6C65E3CEE48 /* HLSpriteKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 148FD8FA781DC76AEBD7A3DC1E3E4AC0 /* HLSpriteKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		50076280C6217357075123EFE3733AB4 /* HLScene.m in Sources */ = {isa = PBXBuildFile; fileRef = EBDB7CE010D902DD207CD563D007C806 /* HLScene.m */; };
-		556F725ABA021D7F8A86022D16BE166F /* SKNode+HLNodeVisuals.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F881B67482905164C5F5AF30CB23329 /* SKNode+HLNodeVisuals.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5644403B41E41142B5BD4080A6ED3161 /* SKNode+HLLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF2D147A650A9E8E6A21272A2398C47 /* SKNode+HLLayoutManager.m */; };
-		58751D1F7386445432F3A054B8EFDBC2 /* HLTextureStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 0743C1DB16A4B1E902659C8F4ADE48AE /* HLTextureStore.m */; };
-		6502058A46CD1E32276F08916F9FB3A8 /* UIImage+HLImageAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FCCC441109B98D130701B5E74728CCB0 /* UIImage+HLImageAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6530C9079A1DE3CB44747525BF5CB458 /* HLAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E490FA9BC596FC89C5A75303ADB171 /* HLAction.m */; };
-		6702FF6BB3979834D843A283C8B47291 /* INSKOSBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 26123285499E26C73A03BDC91E0EA467 /* INSKOSBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		68A69C0A60BD04C4C22CCCCFD9A00729 /* INSKOSBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = B188912CA9851AD1687D81DDA2D668D1 /* INSKOSBridge.m */; };
-		6C6C10F675294E5A3CE5A1BFC0535224 /* HLTiledNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 72888E24C5C600EB04CD6F18F257DBCA /* HLTiledNode.m */; };
-		6F33A3B74C668D6EC581486E120EA4F0 /* INSKButtonNode.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7594CBAA232B1260DDBFED0DC4E008 /* INSKButtonNode.m */; };
-		6F38FA4A5A694CE0DA4EC1B0D7984423 /* SKSpriteNode+INExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 93616D8181B92DF6777D7709B7E7925C /* SKSpriteNode+INExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		70E8844920148240A16463A89F2F9C89 /* INSKView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE125324D09EC77A3919E97F309099D /* INSKView.m */; };
-		741591974E84D709BC356923D65484C2 /* HLMessageNode.h in Headers */ = {isa = PBXBuildFile; fileRef = B037312816F786FCD4F5BCD5C3352EE4 /* HLMessageNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		749A1F005325099262702E6F8E23E74B /* INSpriteKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 261F087F343F65E9BF24966A5704740F /* INSpriteKit-dummy.m */; };
-		779355C7949781F76B1AD4CCB37394B5 /* SKNode+INExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = D497B5B46CAA3605693FC2F8B5E74640 /* SKNode+INExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		786CF19C2A62B32B162CFB21531A760C /* INSKView.h in Headers */ = {isa = PBXBuildFile; fileRef = FEA046FD198D26103362B0259D86B337 /* INSKView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7A1185502BA8B6B592A6E0870AB9B923 /* HLEmitterStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD1BF140B7633180787433110AABB92 /* HLEmitterStore.m */; };
+		1EF19FDA09429C0F5CD86E7E2DD5E6ED /* INSKButtonNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BC4F89347054F92BA669A390EB9AD4B /* INSKButtonNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2154356AB73D6C4851D8017A938DE91C /* HLItemContentNode.h in Headers */ = {isa = PBXBuildFile; fileRef = C6B3973770E81B1CDA5D522EBD130C74 /* HLItemContentNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26747FEA88B8A41D97BE3C29A9B73929 /* HLEmitterStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 8568C56CD0E3D7AEEB8268C49BC1D1C3 /* HLEmitterStore.m */; };
+		2C9D75BDE0567C091A4946A1D26CD93F /* INSKMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 7921688E0A3A01E2CC3205AF16A27CB0 /* INSKMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F557BB12A798005EFFE1D2958F0DD09 /* INSpriteKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DEEAD410D5BD3B7DA8ADAA2AA310858 /* INSpriteKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33EBC621AE5EA750AF7AE50CFC60937D /* INSpriteKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 432D17EED426BA3053A1D6507A37EA10 /* INSpriteKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		382DDEA78FDCDA57141CFBEC11B27642 /* HLMath.m in Sources */ = {isa = PBXBuildFile; fileRef = 57AB16D16ADDF11663A3DDB48332D28D /* HLMath.m */; };
+		392278DA537E4D6EC49236D1D5A84D38 /* INSKTiledImageNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BD3593C7F9A6546DA6D05A36FEB4528 /* INSKTiledImageNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		399647AB8C026B88EBAF29398C97CF43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7C35DD69BFB9DC9AC58ABF52C9C0ED3 /* Foundation.framework */; };
+		3A72205B1322F9235B936CB74CDE478C /* UIImage+HLImageAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DF411D9DE6925B6228DCE7AA83AC36C /* UIImage+HLImageAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A9339A03E7F548B95B256820436C3A9 /* SKLabelNode+HLLabelNodeAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D62687F481996E01F44B32C129EED92A /* SKLabelNode+HLLabelNodeAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B633242943050274464FCD686A69E10 /* NSGestureRecognizer+MultipleActions.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E4DC9390DE0AB33C20122DF183C912 /* NSGestureRecognizer+MultipleActions.m */; };
+		3C01EFBE8E6DAB8D630142044CEE8765 /* HLLayoutManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D55C9217511F6AC94577E368B6105667 /* HLLayoutManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		409E68420B7352D948B6819492601A49 /* HLRingNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2F72BE94E28220DB74770F28F20673 /* HLRingNode.m */; };
+		41CACEA3D74C88A1BF51A747FE21B60C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A958D9F28EBB465723B96A95AEAD3DDE /* UIKit.framework */; };
+		466164560D05276234B177C06B9C6ED1 /* HLMessageNode.h in Headers */ = {isa = PBXBuildFile; fileRef = EFB8BCA4B905124104A790470AAFD3F5 /* HLMessageNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47AC7618D41B2996BEB8D5B6E82EFE30 /* HLOutlineLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4F7C7C74BC707E21F81DC5DF4C46A5 /* HLOutlineLayoutManager.m */; };
+		49B71D98C31D57A969FFB737C2712B9B /* HLScrollNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 145D968748FD8DB48847182BF75A0849 /* HLScrollNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		566FA65DEA2467E1BAF5DFDBD9963FB4 /* HLMessageNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 59933A461D7734372A92DB343CBC1F73 /* HLMessageNode.m */; };
+		56D57C67B71764CC6B8BA80075B1E273 /* SKNode+HLNodeVisuals.h in Headers */ = {isa = PBXBuildFile; fileRef = 17A26981DC5CD36F2CB24FA1E0EBC5FE /* SKNode+HLNodeVisuals.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		634D497ED65C65679D12CA0271274655 /* HLTiledNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C5054173AECBC0E4D38AC06D092284 /* HLTiledNode.m */; };
+		666EB00292CB4B274179D3183C13D35F /* HLLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 377E683B13D12611B07E90BBD9ABD896 /* HLLayoutManager.m */; };
+		6702FF6BB3979834D843A283C8B47291 /* INSKOSBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 552B98C12740019FADD4F6C4ED9B0D26 /* INSKOSBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67574F850331423DE1A3B6A7A4CBF6DC /* HLItemNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 36CABD280887CE18EBA4A7D05CC7D0BC /* HLItemNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68A69C0A60BD04C4C22CCCCFD9A00729 /* INSKOSBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 301DFDEB611CA022AB80B675CC248A44 /* INSKOSBridge.m */; };
+		6F33A3B74C668D6EC581486E120EA4F0 /* INSKButtonNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8806E49534AF51B3239F20B3A10F063A /* INSKButtonNode.m */; };
+		6F38FA4A5A694CE0DA4EC1B0D7984423 /* SKSpriteNode+INExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = BD4A8D5844B98A5515B32B573CD95582 /* SKSpriteNode+INExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70E8844920148240A16463A89F2F9C89 /* INSKView.m in Sources */ = {isa = PBXBuildFile; fileRef = 883DBFEF617CC09B0564E32EC8DEC284 /* INSKView.m */; };
+		730575873FCBE26391596EC919E7F417 /* SKNode+HLGestureTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = 35D83624E13D79988B6F595861CD9342 /* SKNode+HLGestureTarget.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		749A1F005325099262702E6F8E23E74B /* INSpriteKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CA43D188CF2009ED7FA8B5426025D9 /* INSpriteKit-dummy.m */; };
+		779355C7949781F76B1AD4CCB37394B5 /* SKNode+INExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 5284F918A04A49A0423136A085CBB2EC /* SKNode+INExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		786CF19C2A62B32B162CFB21531A760C /* INSKView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B7115EDEE96D80C2980D03B200BAC5F /* INSKView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A9496A8947A0873AD72488DDBBAF136 /* HLItemsNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D940E5A0E9B61F52D8AF36271DCCCBB /* HLItemsNode.m */; };
+		7BF3EFBFECA2DF33183D77493E8CB138 /* HLSpriteKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 240C77004927AE136DD438F54CE87D9D /* HLSpriteKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CF054E8BDFCF9D9CD26F495072CA217 /* HLGridLayoutManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D02C2A968ED60955085775028DAA2301 /* HLGridLayoutManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7DB33535A3B77429E147A483202FF27C /* Pods-GameTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0892A244D8C71E3FB21A5CCA82B4A39 /* Pods-GameTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7F44406471494F2EEDFF7C33A86C47ED /* HLMessageNode.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1EAE9E7EB1501859F5ABFED07FDB68 /* HLMessageNode.m */; };
-		80EDD9888AEF4FF21137CFD9037A7305 /* HLItemContentNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8371771AD5CFDF9EC5517E5F3025930A /* HLItemContentNode.m */; };
-		84B7940667D29A6927D92DEF3F66F720 /* SKNode+INExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DADE4D4FD8FE3E3FD55C70A5E117ACF /* SKNode+INExtension.m */; };
-		86B561D30074EDB4621A5A618AD5F60D /* SKNode+HLNodeVisuals.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9A9223303DBADFE0DC0E180866C0F0 /* SKNode+HLNodeVisuals.m */; };
+		8279AC761850C0A67A0F32B9CE6C2CD5 /* HLComponentNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EABD2BBFDF68CD7057D765E6BD392B9 /* HLComponentNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82B205B880A616B3135C2C9C4AC91E06 /* HLRingLayoutManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 15577E10C30471A077A4D5349FDA90E9 /* HLRingLayoutManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84B7940667D29A6927D92DEF3F66F720 /* SKNode+INExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F797FE11AA24A91FA0FF8DAFF0907356 /* SKNode+INExtension.m */; };
+		86F30E12EA4980930BC7721088934279 /* HLItemContentNode.m in Sources */ = {isa = PBXBuildFile; fileRef = C62D1C9AC3804E1EB11E9678A03FA833 /* HLItemContentNode.m */; };
 		8C2E5FF2496236E30F9EAC9EEAA03502 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7C35DD69BFB9DC9AC58ABF52C9C0ED3 /* Foundation.framework */; };
-		8C6D5E05106D249808FF95E87DF8CC35 /* HLMath.m in Sources */ = {isa = PBXBuildFile; fileRef = 84156CA8022BA9ED5A71CBDA8934411E /* HLMath.m */; };
-		9129E22B03708369E774B3075D5F890D /* HLGestureTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = D071AC0AB4E4B0061142974DB34C5727 /* HLGestureTarget.m */; };
-		93534FAD157DD705C2A2FFAFB66B0499 /* SKNode+HLGestureTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = E9B7E9203EF5FB8A6626E6BFB4513456 /* SKNode+HLGestureTarget.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		914A8213A770FFD19FCEC357025FA2B8 /* HLAction.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6308C21B4066DD24B49B0047EC44E2 /* HLAction.m */; };
+		933F6D11503E4CFEAA4EE282ADB84F8A /* SKLabelNode+HLLabelNodeAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4143A0A09E9554BAE8FE7EB5115FE6 /* SKLabelNode+HLLabelNodeAdditions.m */; };
 		95570D2874E601C83A31ADC0AD19DDCC /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3330DAD5C995A25B2F78F987652822E4 /* GLKit.framework */; };
-		95788ADE032640900CD83914DE66D703 /* HLItemContentNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 24CEDD1D0F5A46B4D4320A4773F4321E /* HLItemContentNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		96BDABCED6DA639B81D1C71B27B7359B /* Pods-GameTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F2D774C87FDE0C252692889CFDFEEA /* Pods-GameTest-dummy.m */; };
-		A2DC2E086398B3C6E2A9CCC89C496A75 /* HLItemNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ADA084CB9431645915551896C27FC50 /* HLItemNode.m */; };
-		A552FDE42B44AF78D7C8CE0884EA2193 /* HLEmitterStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 46C8909B49C350D0A0146C3B076ADC27 /* HLEmitterStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A634CE01D4E1E12C754A5B08FA8BB731 /* HLAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ADE2D492D1E7A2EF3E286B0CE8F1695 /* HLAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A7F18780C3E6B934F8ED441A8044E9E1 /* HLComponentNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 5914780CC4B06D3829A38BCABE87E8D8 /* HLComponentNode.m */; };
-		AA07CD93E2EBD65B47DE15E2F7A6B627 /* HLTableLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF1864E36D31C5297FFF5B1517D521A /* HLTableLayoutManager.m */; };
-		AAC46CE21F269CABD05962C671041E52 /* HLSpriteKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE29E9A284773A8F8354073B10ED4063 /* HLSpriteKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AF318097587B2A9B117497D35BCECFF7 /* HLRingNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F22A0BB8F54CF01B7BB54256A47585F /* HLRingNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B42F0AF61595746D3E8CFF0B667100DD /* SKSpriteNode+INExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F078D1830D76622B0682A01AA2811E /* SKSpriteNode+INExtension.m */; };
-		B7064C85BE26C7471DAEF24F99F0A0AE /* UIImage+HLImageAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 94662473E275E566C96E8948573117D8 /* UIImage+HLImageAdditions.m */; };
-		B85B6B4EE3FB4BBF4AB57700225D3304 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96FE16597E73F4EB312E57563C0271A8 /* SpriteKit.framework */; };
+		9831690C92F9F5A20A0A682A16499560 /* HLTiledNode.h in Headers */ = {isa = PBXBuildFile; fileRef = D34BBD2AE344180CA52C7000DEF45961 /* HLTiledNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A041C736C4B8DF7C9455FBE7EF20183E /* HLRingNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CEA9044741C0DB28123139F3D1781E1 /* HLRingNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A33B2D6944036A56051A170BE8FA5C70 /* HLSpriteKit.h in Headers */ = {isa = PBXBuildFile; fileRef = BB49A42064CE4C95CCE8FAB8603827C9 /* HLSpriteKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4FDCB9548A37803F936824F422B84EB /* HLLabelButtonNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AACE773509ECBF4C5291D0C5EC32091 /* HLLabelButtonNode.m */; };
+		AA1F5FF24745070EDD9B3D076198BBF8 /* HLScene.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D281BFD6F530F22DB8B153F5943D1CC /* HLScene.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF22A7BC002EC110AEEE1CAB07B85A32 /* HLAction.h in Headers */ = {isa = PBXBuildFile; fileRef = ECE5311D97CE635F6BAB7694A445DFEE /* HLAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF804ABB5C8F7D2D9B1484BD0EC49BA0 /* SKNode+HLGestureTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F37A0FBA5CEAFBBD00C398BA46A94DC /* SKNode+HLGestureTarget.m */; };
+		B42F0AF61595746D3E8CFF0B667100DD /* SKSpriteNode+INExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1512B867CD0EB1069B551B0E66A67829 /* SKSpriteNode+INExtension.m */; };
+		B6B27CB4B46335A6D8773E8299370E2C /* UIImage+HLImageAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A57595D2C4875BB54CCC85F013776CD3 /* UIImage+HLImageAdditions.m */; };
+		B6D87456AFA722927575091D11D7E02D /* HLMultilineLabelNode.h in Headers */ = {isa = PBXBuildFile; fileRef = DB6877545B2A587A7DB6C45EAFEA943D /* HLMultilineLabelNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B971031D10B89332DB06CA337A169BB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7C35DD69BFB9DC9AC58ABF52C9C0ED3 /* Foundation.framework */; };
-		BCF2DA07F615D545F3379D18696EF7E5 /* HLComponentNode.h in Headers */ = {isa = PBXBuildFile; fileRef = E3BAEFFDBF8DEDF8BB8AB1EBC051CBD4 /* HLComponentNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C18529BDAD4C14CACBCEA0A94D70576B /* HLMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CB1F8A1A03302B40F4AF3BC1E60AA45 /* HLMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C5746C477EEEBF5C6D5C5714A3A6DF55 /* HLLabelButtonNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 105DD2A03DECD62CF1E974C68A194DB9 /* HLLabelButtonNode.m */; };
-		C6AAC5E7951BEBD35C9D5A3C79033667 /* INSKScrollNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AABBA77E44573FDCA4806E74B178F9 /* INSKScrollNode.m */; };
-		CB3FD9B523F797F2A98581F632EEAFB2 /* SKEmitterNode+INExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E32C820B2931F0D593603BF2FF4C540 /* SKEmitterNode+INExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D9ADEAF732685BC08EDE81AE2450561C /* HLItemsNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EE3653F159BF2EFEA94F775725CF99 /* HLItemsNode.m */; };
-		E8A60121014224283D89AFE24F890F66 /* SKLabelNode+HLLabelNodeAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DD5F2ABA35E6F703169CE866646E2A29 /* SKLabelNode+HLLabelNodeAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EE2A7AD39D1819811A67B7106EABD559 /* HLItemNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 20DF538B9DB8CDFAF196862B0BB3159A /* HLItemNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F25C538EAAADFF5E60BABDDA3201F822 /* INSKScrollNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E4CE2C0D199E1051D2DF89F05681EEE /* INSKScrollNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F34C16A9B96F271CC36EE0282FB5EBDC /* HLLabelButtonNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C1280221D1A0CA825F8CA295CF6E6E3 /* HLLabelButtonNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F6C19301C7412E4BADDFBDE050641EAC /* HLScrollNode.h in Headers */ = {isa = PBXBuildFile; fileRef = E28450E196FF9B04C49F4B9BDF86FB33 /* HLScrollNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F7DD1BA8DBBBEB0AB4AA2438056C49E1 /* HLTextureStore.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFC68F8CAC55C38320684276655C50B /* HLTextureStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F9EA62B0459E487315D6238AC9016A57 /* HLToolbarNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B498B8EC4CFC0E9D1A30715316799B84 /* HLToolbarNode.m */; };
-		FB6F40F139E3C3B7B70C64F2ADAADAAE /* INSKTiledImageNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 2261BE711222E370A3E5EDD82C089F2C /* INSKTiledImageNode.m */; };
-		FF4520A126C033FDD658EFF9FF337597 /* HLLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E96EE3AAD8C7068AFC549F19E015BEE1 /* HLLayoutManager.m */; };
+		C6AAC5E7951BEBD35C9D5A3C79033667 /* INSKScrollNode.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7EF88C727B41A03263CD02E7589845 /* INSKScrollNode.m */; };
+		C6DDD6C831F8BBFC5B935225D9F22ADE /* HLMultilineLabelNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F4AF42DB822A6D860FF5B95C1997B59 /* HLMultilineLabelNode.m */; };
+		C7DD364135592263BE2B5D3C1046A23C /* HLToolbarNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E0A8E6604A3D35E7C8C522A8EFA92DE /* HLToolbarNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB3FD9B523F797F2A98581F632EEAFB2 /* SKEmitterNode+INExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 073C8BC4F949FDD1A5B1D70AD6C0A511 /* SKEmitterNode+INExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D02E9F6FCBB2BF1E1EC7B05AB2D40D5F /* HLMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 335031DB8760279F638B94C82FB833F0 /* HLMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D08A9D20869E1ACC6EAA2D0ACD349C09 /* HLGestureTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BACEBC96CAD1A3625BE29F0EC426B0F /* HLGestureTarget.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D16D873B14DC3D6EDC9ACD30BFC297F4 /* NSGestureRecognizer+MultipleActions.h in Headers */ = {isa = PBXBuildFile; fileRef = B851E79859DE662F483E70ACFC33E623 /* NSGestureRecognizer+MultipleActions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D288F8C14522875A55AE0B693359CEC1 /* HLGridNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 43ABCF17033DEC72C67494EC2425A277 /* HLGridNode.m */; };
+		D459DDA94899BCC00C03A48CB8D8CF73 /* HLSpriteKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 699E0788222C86C5A58EEF3E764EFA67 /* HLSpriteKit-dummy.m */; };
+		DDAE0FBE2C18409BC1D3E045E1D7CF8F /* HLGestureTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 182F1BCF0D0799F1E76F4366B89C11BB /* HLGestureTarget.m */; };
+		DFBD663869DA2D3F0768898646BD35FD /* HLError.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA9A7891CFF0CDB5DFDFB46043A2530 /* HLError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFCB2E1070D602F8E3D699F854D8D7BA /* SKNode+HLLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E3FD0AF4FDE070A33E973B588400BA /* SKNode+HLLayoutManager.m */; };
+		DFEC3514EE07885873513593C1C8AB00 /* HLScrollNode.m in Sources */ = {isa = PBXBuildFile; fileRef = E50FF7D523A6A9ACBACC86A9FA8830D7 /* HLScrollNode.m */; };
+		E12A1C3D920C8637436410F60D6C3F17 /* HLScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 982A0CF391E2596CC2EEAE788B4C15BA /* HLScene.m */; };
+		E40DBC8CB33EA9D1626CC28D932C18ED /* HLTableLayoutManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B64A521E20A290F2295211ACAFD2BFB /* HLTableLayoutManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5F232A4CCC0755B75982DF24E19D940 /* SKNode+HLNodeVisuals.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA5A8CAF0032430AF985B375C824385 /* SKNode+HLNodeVisuals.m */; };
+		EB7EC80DF349DF89E050457C1F9C9F0F /* HLEmitterStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F337DA06CB6CFFD196A949531DAD15F /* HLEmitterStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF9B5EB33F4ECC4C4170DFEF4DEF7D9D /* HLRingLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D4E861A8BD59AD6A3B4ACB189AF4DA /* HLRingLayoutManager.m */; };
+		EFC0E688206C066D9225EA88BEEC897B /* HLComponentNode.m in Sources */ = {isa = PBXBuildFile; fileRef = E497A1DB407FA298EB31B27CF4D9CFFC /* HLComponentNode.m */; };
+		F25C538EAAADFF5E60BABDDA3201F822 /* INSKScrollNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 2156D4025BA67202F44C2658B19FDB67 /* INSKScrollNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA49A846D8C1668AE59664E40B07EA30 /* HLItemNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE6AD9F50724C7B4FDB18ED24CA119C /* HLItemNode.m */; };
+		FA912E291A923154AF88BC4A2A3C0BD8 /* HLMenuNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 53B8A1B9593F69C2B6262371B056D35B /* HLMenuNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB6F40F139E3C3B7B70C64F2ADAADAAE /* INSKTiledImageNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C9E6564E29AE0D4D908CD339588892 /* INSKTiledImageNode.m */; };
+		FC28162F56E0C79BCF730B732816597A /* SKNode+HLLayoutManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A13F27BDD89F6123FAB2BBF28D9A7D6 /* SKNode+HLLayoutManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,7 +106,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8E13EF1F31F07CD75ABEEE3DB4F4387E;
+			remoteGlobalIDString = 1421E63D723A18F543E94AD7942C3CF1;
 			remoteInfo = HLSpriteKit;
 		};
 		2A85DD88CE63AAAC6727FFA2DEDD9CFA /* PBXContainerItemProxy */ = {
@@ -115,121 +119,125 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03E490FA9BC596FC89C5A75303ADB171 /* HLAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HLAction.m; path = HLSpriteKit/HLAction.m; sourceTree = "<group>"; };
-		0743C1DB16A4B1E902659C8F4ADE48AE /* HLTextureStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HLTextureStore.m; path = HLSpriteKit/HLTextureStore.m; sourceTree = "<group>"; };
-		0ADA084CB9431645915551896C27FC50 /* HLItemNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HLItemNode.m; path = HLSpriteKit/HLItemNode.m; sourceTree = "<group>"; };
-		0CD1BF140B7633180787433110AABB92 /* HLEmitterStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HLEmitterStore.m; path = HLSpriteKit/HLEmitterStore.m; sourceTree = "<group>"; };
-		0DE068C018BC5BEBC79C3098A6293491 /* HLGridNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLGridNode.h; path = HLSpriteKit/HLGridNode.h; sourceTree = "<group>"; };
-		0E748BDCAE44039B45644689A67D985C /* HLMenuNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLMenuNode.h; path = HLSpriteKit/HLMenuNode.h; sourceTree = "<group>"; };
-		105DD2A03DECD62CF1E974C68A194DB9 /* HLLabelButtonNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HLLabelButtonNode.m; path = HLSpriteKit/HLLabelButtonNode.m; sourceTree = "<group>"; };
-		148FD8FA781DC76AEBD7A3DC1E3E4AC0 /* HLSpriteKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLSpriteKit.h; path = HLSpriteKit/HLSpriteKit.h; sourceTree = "<group>"; };
-		16F078D1830D76622B0682A01AA2811E /* SKSpriteNode+INExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SKSpriteNode+INExtension.m"; path = "INSpriteKit/SKSpriteNode+INExtension.m"; sourceTree = "<group>"; };
-		18C5CCC7FC70BFD07A2953C4105BBCCE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		073C8BC4F949FDD1A5B1D70AD6C0A511 /* SKEmitterNode+INExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SKEmitterNode+INExtension.h"; path = "INSpriteKit/SKEmitterNode+INExtension.h"; sourceTree = "<group>"; };
+		0AACE773509ECBF4C5291D0C5EC32091 /* HLLabelButtonNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HLLabelButtonNode.m; path = HLSpriteKit/HLLabelButtonNode.m; sourceTree = "<group>"; };
+		0B7115EDEE96D80C2980D03B200BAC5F /* INSKView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INSKView.h; path = INSpriteKit/INSKView.h; sourceTree = "<group>"; };
+		0DEEAD410D5BD3B7DA8ADAA2AA310858 /* INSpriteKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "INSpriteKit-umbrella.h"; sourceTree = "<group>"; };
+		0F4F7C7C74BC707E21F81DC5DF4C46A5 /* HLOutlineLayoutManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HLOutlineLayoutManager.m; path = HLSpriteKit/HLOutlineLayoutManager.m; sourceTree = "<group>"; };
+		11E3FD0AF4FDE070A33E973B588400BA /* SKNode+HLLayoutManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SKNode+HLLayoutManager.m"; path = "HLSpriteKit/SKNode+HLLayoutManager.m"; sourceTree = "<group>"; };
+		145D968748FD8DB48847182BF75A0849 /* HLScrollNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLScrollNode.h; path = HLSpriteKit/HLScrollNode.h; sourceTree = "<group>"; };
+		1512B867CD0EB1069B551B0E66A67829 /* SKSpriteNode+INExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SKSpriteNode+INExtension.m"; path = "INSpriteKit/SKSpriteNode+INExtension.m"; sourceTree = "<group>"; };
+		1544B653FE1CC9E6F50263B1963CDCE5 /* HLMenuNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HLMenuNode.m; path = HLSpriteKit/HLMenuNode.m; sourceTree = "<group>"; };
+		15577E10C30471A077A4D5349FDA90E9 /* HLRingLayoutManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLRingLayoutManager.h; path = HLSpriteKit/HLRingLayoutManager.h; sourceTree = "<group>"; };
+		17A26981DC5CD36F2CB24FA1E0EBC5FE /* SKNode+HLNodeVisuals.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SKNode+HLNodeVisuals.h"; path = "HLSpriteKit/SKNode+HLNodeVisuals.h"; sourceTree = "<group>"; };
+		182F1BCF0D0799F1E76F4366B89C11BB /* HLGestureTarget.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HLGestureTarget.m; path = HLSpriteKit/HLGestureTarget.m; sourceTree = "<group>"; };
 		19B549898E323C03B564B11288867856 /* Pods-GameTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GameTest-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1A27BEC05A70A9EB3E1077F611BF8E43 /* HLError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLError.h; path = HLSpriteKit/HLError.h; sourceTree = "<group>"; };
-		1B9A9223303DBADFE0DC0E180866C0F0 /* SKNode+HLNodeVisuals.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SKNode+HLNodeVisuals.m"; path = "HLSpriteKit/SKNode+HLNodeVisuals.m"; sourceTree = "<group>"; };
-		1E32C820B2931F0D593603BF2FF4C540 /* SKEmitterNode+INExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SKEmitterNode+INExtension.h"; path = "INSpriteKit/SKEmitterNode+INExtension.h"; sourceTree = "<group>"; };
-		1E81E83A93A99100BBC638C0AFD0D7DD /* INSKTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INSKTypes.h; path = INSpriteKit/INSKTypes.h; sourceTree = "<group>"; };
-		20DF538B9DB8CDFAF196862B0BB3159A /* HLItemNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLItemNode.h; path = HLSpriteKit/HLItemNode.h; sourceTree = "<group>"; };
-		2261BE711222E370A3E5EDD82C089F2C /* INSKTiledImageNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = INSKTiledImageNode.m; path = INSpriteKit/INSKTiledImageNode.m; sourceTree = "<group>"; };
-		24AABBA77E44573FDCA4806E74B178F9 /* INSKScrollNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = INSKScrollNode.m; path = INSpriteKit/INSKScrollNode.m; sourceTree = "<group>"; };
-		24CEDD1D0F5A46B4D4320A4773F4321E /* HLItemContentNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLItemContentNode.h; path = HLSpriteKit/HLItemContentNode.h; sourceTree = "<group>"; };
-		254D4597FEA512F197E32CF83E0A47C2 /* INSpriteKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = INSpriteKit.modulemap; sourceTree = "<group>"; };
-		26123285499E26C73A03BDC91E0EA467 /* INSKOSBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INSKOSBridge.h; path = INSpriteKit/INSKOSBridge.h; sourceTree = "<group>"; };
-		261F087F343F65E9BF24966A5704740F /* INSpriteKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "INSpriteKit-dummy.m"; sourceTree = "<group>"; };
-		27EE3653F159BF2EFEA94F775725CF99 /* HLItemsNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HLItemsNode.m; path = HLSpriteKit/HLItemsNode.m; sourceTree = "<group>"; };
-		296D9515357457828C10047202C1F91D /* HLMenuNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HLMenuNode.m; path = HLSpriteKit/HLMenuNode.m; sourceTree = "<group>"; };
-		2BE276D09F0CA617271CE9A1C69A4059 /* HLItemsNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLItemsNode.h; path = HLSpriteKit/HLItemsNode.h; sourceTree = "<group>"; };
+		2156D4025BA67202F44C2658B19FDB67 /* INSKScrollNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INSKScrollNode.h; path = INSpriteKit/INSKScrollNode.h; sourceTree = "<group>"; };
+		236E45762AD5A8D30BFE02C85173CB0B /* INSKTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INSKTypes.h; path = INSpriteKit/INSKTypes.h; sourceTree = "<group>"; };
+		240C77004927AE136DD438F54CE87D9D /* HLSpriteKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HLSpriteKit-umbrella.h"; sourceTree = "<group>"; };
+		2AE6AD9F50724C7B4FDB18ED24CA119C /* HLItemNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HLItemNode.m; path = HLSpriteKit/HLItemNode.m; sourceTree = "<group>"; };
+		2D5580B7425BF20E4EE040EAE25601D0 /* HLOutlineLayoutManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLOutlineLayoutManager.h; path = HLSpriteKit/HLOutlineLayoutManager.h; sourceTree = "<group>"; };
 		2D841B62ED34F11F6CC28128E3168B27 /* Pods-GameTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GameTest.release.xcconfig"; sourceTree = "<group>"; };
+		2D940E5A0E9B61F52D8AF36271DCCCBB /* HLItemsNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HLItemsNode.m; path = HLSpriteKit/HLItemsNode.m; sourceTree = "<group>"; };
 		2DB52FEE32AC4424B9CF4878334DDA16 /* HLSpriteKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HLSpriteKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		301DFDEB611CA022AB80B675CC248A44 /* INSKOSBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = INSKOSBridge.m; path = INSpriteKit/INSKOSBridge.m; sourceTree = "<group>"; };
+		32C5054173AECBC0E4D38AC06D092284 /* HLTiledNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HLTiledNode.m; path = HLSpriteKit/HLTiledNode.m; sourceTree = "<group>"; };
 		3330DAD5C995A25B2F78F987652822E4 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/GLKit.framework; sourceTree = DEVELOPER_DIR; };
-		37007FF6896A307B26D3619B368394F3 /* HLTiledNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLTiledNode.h; path = HLSpriteKit/HLTiledNode.h; sourceTree = "<group>"; };
-		3CB1F8A1A03302B40F4AF3BC1E60AA45 /* HLMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLMath.h; path = HLSpriteKit/HLMath.h; sourceTree = "<group>"; };
-		4054E097B5CD058C21A6D9D963CA8BD7 /* INSKMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INSKMath.h; path = INSpriteKit/INSKMath.h; sourceTree = "<group>"; };
-		46C8909B49C350D0A0146C3B076ADC27 /* HLEmitterStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLEmitterStore.h; path = HLSpriteKit/HLEmitterStore.h; sourceTree = "<group>"; };
-		487EF28C90259C985D0BD1C81D82FBAD /* HLScene.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLScene.h; path = HLSpriteKit/HLScene.h; sourceTree = "<group>"; };
-		4F881B67482905164C5F5AF30CB23329 /* SKNode+HLNodeVisuals.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SKNode+HLNodeVisuals.h"; path = "HLSpriteKit/SKNode+HLNodeVisuals.h"; sourceTree = "<group>"; };
-		4FED050F457352F236F806AFCDB486A4 /* SKNode+HLGestureTarget.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SKNode+HLGestureTarget.m"; path = "HLSpriteKit/SKNode+HLGestureTarget.m"; sourceTree = "<group>"; };
-		4FF1864E36D31C5297FFF5B1517D521A /* HLTableLayoutManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HLTableLayoutManager.m; path = HLSpriteKit/HLTableLayoutManager.m; sourceTree = "<group>"; };
-		5914780CC4B06D3829A38BCABE87E8D8 /* HLComponentNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HLComponentNode.m; path = HLSpriteKit/HLComponentNode.m; sourceTree = "<group>"; };
+		335031DB8760279F638B94C82FB833F0 /* HLMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLMath.h; path = HLSpriteKit/HLMath.h; sourceTree = "<group>"; };
+		35D83624E13D79988B6F595861CD9342 /* SKNode+HLGestureTarget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SKNode+HLGestureTarget.h"; path = "HLSpriteKit/SKNode+HLGestureTarget.h"; sourceTree = "<group>"; };
+		36CABD280887CE18EBA4A7D05CC7D0BC /* HLItemNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLItemNode.h; path = HLSpriteKit/HLItemNode.h; sourceTree = "<group>"; };
+		377E683B13D12611B07E90BBD9ABD896 /* HLLayoutManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HLLayoutManager.m; path = HLSpriteKit/HLLayoutManager.m; sourceTree = "<group>"; };
+		3DF217795757C607FF77A41894A1173B /* HLSpriteKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HLSpriteKit-prefix.pch"; sourceTree = "<group>"; };
+		3DF411D9DE6925B6228DCE7AA83AC36C /* UIImage+HLImageAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+HLImageAdditions.h"; path = "HLSpriteKit/UIImage+HLImageAdditions.h"; sourceTree = "<group>"; };
+		3E0A8E6604A3D35E7C8C522A8EFA92DE /* HLToolbarNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLToolbarNode.h; path = HLSpriteKit/HLToolbarNode.h; sourceTree = "<group>"; };
+		3EABD2BBFDF68CD7057D765E6BD392B9 /* HLComponentNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLComponentNode.h; path = HLSpriteKit/HLComponentNode.h; sourceTree = "<group>"; };
+		432D17EED426BA3053A1D6507A37EA10 /* INSpriteKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INSpriteKit.h; path = INSpriteKit/INSpriteKit.h; sourceTree = "<group>"; };
+		43ABCF17033DEC72C67494EC2425A277 /* HLGridNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HLGridNode.m; path = HLSpriteKit/HLGridNode.m; sourceTree = "<group>"; };
+		46D4E861A8BD59AD6A3B4ACB189AF4DA /* HLRingLayoutManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HLRingLayoutManager.m; path = HLSpriteKit/HLRingLayoutManager.m; sourceTree = "<group>"; };
+		4D3CAEFF8FCD88B44CE4CA87A0B35220 /* HLGridLayoutManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HLGridLayoutManager.m; path = HLSpriteKit/HLGridLayoutManager.m; sourceTree = "<group>"; };
+		5284F918A04A49A0423136A085CBB2EC /* SKNode+INExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SKNode+INExtension.h"; path = "INSpriteKit/SKNode+INExtension.h"; sourceTree = "<group>"; };
+		537627A03F3A8B0FA7BAEF9EF288E54D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53B8A1B9593F69C2B6262371B056D35B /* HLMenuNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLMenuNode.h; path = HLSpriteKit/HLMenuNode.h; sourceTree = "<group>"; };
+		552B98C12740019FADD4F6C4ED9B0D26 /* INSKOSBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INSKOSBridge.h; path = INSpriteKit/INSKOSBridge.h; sourceTree = "<group>"; };
+		57AB16D16ADDF11663A3DDB48332D28D /* HLMath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HLMath.m; path = HLSpriteKit/HLMath.m; sourceTree = "<group>"; };
+		59933A461D7734372A92DB343CBC1F73 /* HLMessageNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HLMessageNode.m; path = HLSpriteKit/HLMessageNode.m; sourceTree = "<group>"; };
+		5B8DDCB537009182A4E82D7F67FA93F3 /* HLLabelButtonNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLLabelButtonNode.h; path = HLSpriteKit/HLLabelButtonNode.h; sourceTree = "<group>"; };
 		5BE57C9BE42E38CC6F38373E4AAD12B8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D281BFD6F530F22DB8B153F5943D1CC /* HLScene.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLScene.h; path = HLSpriteKit/HLScene.h; sourceTree = "<group>"; };
 		5DAEBA0E628DD2731C251BFD26729518 /* Pods-GameTest-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GameTest-resources.sh"; sourceTree = "<group>"; };
-		5DDD84D11C150973E7E3A39A6A774E1A /* HLOutlineLayoutManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HLOutlineLayoutManager.m; path = HLSpriteKit/HLOutlineLayoutManager.m; sourceTree = "<group>"; };
-		6488082C65667D0D70BDFDBF9547F7D6 /* INSpriteKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "INSpriteKit-umbrella.h"; sourceTree = "<group>"; };
+		5F4AF42DB822A6D860FF5B95C1997B59 /* HLMultilineLabelNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HLMultilineLabelNode.m; path = HLSpriteKit/HLMultilineLabelNode.m; sourceTree = "<group>"; };
+		6170132AE29D6C91B3ECCFBA8BB245C0 /* INSpriteKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "INSpriteKit-prefix.pch"; sourceTree = "<group>"; };
+		622B14362DD9B03CBBF6C9003A084685 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		699E0788222C86C5A58EEF3E764EFA67 /* HLSpriteKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HLSpriteKit-dummy.m"; sourceTree = "<group>"; };
+		6A13F27BDD89F6123FAB2BBF28D9A7D6 /* SKNode+HLLayoutManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SKNode+HLLayoutManager.h"; path = "HLSpriteKit/SKNode+HLLayoutManager.h"; sourceTree = "<group>"; };
 		6AB943B1F697002FB65F21159C67B4ED /* Pods-GameTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GameTest.debug.xcconfig"; sourceTree = "<group>"; };
-		6ADE2D492D1E7A2EF3E286B0CE8F1695 /* HLAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLAction.h; path = HLSpriteKit/HLAction.h; sourceTree = "<group>"; };
-		6E4CE2C0D199E1051D2DF89F05681EEE /* INSKScrollNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INSKScrollNode.h; path = INSpriteKit/INSKScrollNode.h; sourceTree = "<group>"; };
-		72888E24C5C600EB04CD6F18F257DBCA /* HLTiledNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HLTiledNode.m; path = HLSpriteKit/HLTiledNode.m; sourceTree = "<group>"; };
-		78E4684F241A05A5D156383FC868DFDA /* HLSpriteKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HLSpriteKit-dummy.m"; sourceTree = "<group>"; };
+		6BC4F89347054F92BA669A390EB9AD4B /* INSKButtonNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INSKButtonNode.h; path = INSpriteKit/INSKButtonNode.h; sourceTree = "<group>"; };
+		6F37A0FBA5CEAFBBD00C398BA46A94DC /* SKNode+HLGestureTarget.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SKNode+HLGestureTarget.m"; path = "HLSpriteKit/SKNode+HLGestureTarget.m"; sourceTree = "<group>"; };
+		7921688E0A3A01E2CC3205AF16A27CB0 /* INSKMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INSKMath.h; path = INSpriteKit/INSKMath.h; sourceTree = "<group>"; };
+		7AB1B92828EC8877EBB219D631E0F2D7 /* SKEmitterNode+INExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SKEmitterNode+INExtension.m"; path = "INSpriteKit/SKEmitterNode+INExtension.m"; sourceTree = "<group>"; };
+		7BACEBC96CAD1A3625BE29F0EC426B0F /* HLGestureTarget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLGestureTarget.h; path = HLSpriteKit/HLGestureTarget.h; sourceTree = "<group>"; };
 		81F2D774C87FDE0C252692889CFDFEEA /* Pods-GameTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GameTest-dummy.m"; sourceTree = "<group>"; };
-		8371771AD5CFDF9EC5517E5F3025930A /* HLItemContentNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HLItemContentNode.m; path = HLSpriteKit/HLItemContentNode.m; sourceTree = "<group>"; };
-		84156CA8022BA9ED5A71CBDA8934411E /* HLMath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HLMath.m; path = HLSpriteKit/HLMath.m; sourceTree = "<group>"; };
+		82C9E6564E29AE0D4D908CD339588892 /* INSKTiledImageNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = INSKTiledImageNode.m; path = INSpriteKit/INSKTiledImageNode.m; sourceTree = "<group>"; };
 		843DA8CA4367373850340FD897DB5DB2 /* INSpriteKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = INSpriteKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8DADE4D4FD8FE3E3FD55C70A5E117ACF /* SKNode+INExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SKNode+INExtension.m"; path = "INSpriteKit/SKNode+INExtension.m"; sourceTree = "<group>"; };
-		8EE125324D09EC77A3919E97F309099D /* INSKView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = INSKView.m; path = INSpriteKit/INSKView.m; sourceTree = "<group>"; };
+		8568C56CD0E3D7AEEB8268C49BC1D1C3 /* HLEmitterStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HLEmitterStore.m; path = HLSpriteKit/HLEmitterStore.m; sourceTree = "<group>"; };
+		87E8DF3055C1EAB60053ACAF4C967C6B /* HLToolbarNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HLToolbarNode.m; path = HLSpriteKit/HLToolbarNode.m; sourceTree = "<group>"; };
+		8806E49534AF51B3239F20B3A10F063A /* INSKButtonNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = INSKButtonNode.m; path = INSpriteKit/INSKButtonNode.m; sourceTree = "<group>"; };
+		883DBFEF617CC09B0564E32EC8DEC284 /* INSKView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = INSKView.m; path = INSpriteKit/INSKView.m; sourceTree = "<group>"; };
+		8B64A521E20A290F2295211ACAFD2BFB /* HLTableLayoutManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLTableLayoutManager.h; path = HLSpriteKit/HLTableLayoutManager.h; sourceTree = "<group>"; };
+		8BD3593C7F9A6546DA6D05A36FEB4528 /* INSKTiledImageNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INSKTiledImageNode.h; path = INSpriteKit/INSKTiledImageNode.h; sourceTree = "<group>"; };
+		8C2F72BE94E28220DB74770F28F20673 /* HLRingNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HLRingNode.m; path = HLSpriteKit/HLRingNode.m; sourceTree = "<group>"; };
+		8CEA9044741C0DB28123139F3D1781E1 /* HLRingNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLRingNode.h; path = HLSpriteKit/HLRingNode.h; sourceTree = "<group>"; };
+		8F337DA06CB6CFFD196A949531DAD15F /* HLEmitterStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLEmitterStore.h; path = HLSpriteKit/HLEmitterStore.h; sourceTree = "<group>"; };
 		93443CB42250C53694E44BEC48E9A2AC /* Pods-GameTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GameTest.modulemap"; sourceTree = "<group>"; };
-		93616D8181B92DF6777D7709B7E7925C /* SKSpriteNode+INExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SKSpriteNode+INExtension.h"; path = "INSpriteKit/SKSpriteNode+INExtension.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94662473E275E566C96E8948573117D8 /* UIImage+HLImageAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+HLImageAdditions.m"; path = "HLSpriteKit/UIImage+HLImageAdditions.m"; sourceTree = "<group>"; };
 		96FE16597E73F4EB312E57563C0271A8 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/SpriteKit.framework; sourceTree = DEVELOPER_DIR; };
-		9759F81FBFA25E1D177F00E61A9BD418 /* INSpriteKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INSpriteKit.h; path = INSpriteKit/INSpriteKit.h; sourceTree = "<group>"; };
-		978CBD55912941A44FD354C1673C7492 /* SKLabelNode+HLLabelNodeAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SKLabelNode+HLLabelNodeAdditions.m"; path = "HLSpriteKit/SKLabelNode+HLLabelNodeAdditions.m"; sourceTree = "<group>"; };
-		9B298E184B4361E0098964ADE90BCA6E /* INSpriteKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = INSpriteKit.xcconfig; sourceTree = "<group>"; };
-		9C1280221D1A0CA825F8CA295CF6E6E3 /* HLLabelButtonNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLLabelButtonNode.h; path = HLSpriteKit/HLLabelButtonNode.h; sourceTree = "<group>"; };
+		982A0CF391E2596CC2EEAE788B4C15BA /* HLScene.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HLScene.m; path = HLSpriteKit/HLScene.m; sourceTree = "<group>"; };
 		9C3ABE0DB08D08DAE1BE50ABC3C38E6A /* Pods-GameTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GameTest-acknowledgements.plist"; sourceTree = "<group>"; };
-		9F22A0BB8F54CF01B7BB54256A47585F /* HLRingNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLRingNode.h; path = HLSpriteKit/HLRingNode.h; sourceTree = "<group>"; };
-		A0C1EC3637B92D8E64F1CDE0F52335B0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A773F2F867D477E98905B7F9AC80F268 /* SKEmitterNode+INExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SKEmitterNode+INExtension.m"; path = "INSpriteKit/SKEmitterNode+INExtension.m"; sourceTree = "<group>"; };
+		9D9E808F2BB8B60CBA3AAD0A1BB30908 /* HLSpriteKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HLSpriteKit.xcconfig; sourceTree = "<group>"; };
+		A0F91A95490C99C6368EA5D7A5C718FF /* HLSpriteKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HLSpriteKit.modulemap; sourceTree = "<group>"; };
+		A48AD22B0E0E4F00B2ECA5FD97C630ED /* INSpriteKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = INSpriteKit.modulemap; sourceTree = "<group>"; };
+		A57595D2C4875BB54CCC85F013776CD3 /* UIImage+HLImageAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+HLImageAdditions.m"; path = "HLSpriteKit/UIImage+HLImageAdditions.m"; sourceTree = "<group>"; };
 		A958D9F28EBB465723B96A95AEAD3DDE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		AB7594CBAA232B1260DDBFED0DC4E008 /* INSKButtonNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = INSKButtonNode.m; path = INSpriteKit/INSKButtonNode.m; sourceTree = "<group>"; };
-		B037312816F786FCD4F5BCD5C3352EE4 /* HLMessageNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLMessageNode.h; path = HLSpriteKit/HLMessageNode.h; sourceTree = "<group>"; };
+		AEA9A7891CFF0CDB5DFDFB46043A2530 /* HLError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLError.h; path = HLSpriteKit/HLError.h; sourceTree = "<group>"; };
 		B0892A244D8C71E3FB21A5CCA82B4A39 /* Pods-GameTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GameTest-umbrella.h"; sourceTree = "<group>"; };
-		B188912CA9851AD1687D81DDA2D668D1 /* INSKOSBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = INSKOSBridge.m; path = INSpriteKit/INSKOSBridge.m; sourceTree = "<group>"; };
-		B498B8EC4CFC0E9D1A30715316799B84 /* HLToolbarNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HLToolbarNode.m; path = HLSpriteKit/HLToolbarNode.m; sourceTree = "<group>"; };
+		B5CA43D188CF2009ED7FA8B5426025D9 /* INSpriteKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "INSpriteKit-dummy.m"; sourceTree = "<group>"; };
 		B7C35DD69BFB9DC9AC58ABF52C9C0ED3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		B9D6796E3830BD1457172E26130E2DA5 /* HLSpriteKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HLSpriteKit.modulemap; sourceTree = "<group>"; };
+		B851E79859DE662F483E70ACFC33E623 /* NSGestureRecognizer+MultipleActions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSGestureRecognizer+MultipleActions.h"; path = "HLSpriteKit/NSGestureRecognizer+MultipleActions.h"; sourceTree = "<group>"; };
 		BA875345A7C37F6609A37FC0B5A0FCAF /* Pods-GameTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GameTest-frameworks.sh"; sourceTree = "<group>"; };
-		BC1EAE9E7EB1501859F5ABFED07FDB68 /* HLMessageNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HLMessageNode.m; path = HLSpriteKit/HLMessageNode.m; sourceTree = "<group>"; };
-		BD947E5D9733012AE74B087C47A33058 /* INSKButtonNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INSKButtonNode.h; path = INSpriteKit/INSKButtonNode.h; sourceTree = "<group>"; };
+		BB49A42064CE4C95CCE8FAB8603827C9 /* HLSpriteKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLSpriteKit.h; path = HLSpriteKit/HLSpriteKit.h; sourceTree = "<group>"; };
+		BD4A8D5844B98A5515B32B573CD95582 /* SKSpriteNode+INExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SKSpriteNode+INExtension.h"; path = "INSpriteKit/SKSpriteNode+INExtension.h"; sourceTree = "<group>"; };
 		BD963B27F30905344AC5F0571D63D8A3 /* Pods_GameTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GameTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C2259AFAA99E4FF6A2429218FA41E455 /* HLGestureTarget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLGestureTarget.h; path = HLSpriteKit/HLGestureTarget.h; sourceTree = "<group>"; };
-		C284EBFC150A86702A7D20F2BB3B259A /* HLRingLayoutManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLRingLayoutManager.h; path = HLSpriteKit/HLRingLayoutManager.h; sourceTree = "<group>"; };
-		CECE1CE6AA173A99F08399D77C52905B /* HLGridNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HLGridNode.m; path = HLSpriteKit/HLGridNode.m; sourceTree = "<group>"; };
-		CFF2D147A650A9E8E6A21272A2398C47 /* SKNode+HLLayoutManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SKNode+HLLayoutManager.m"; path = "HLSpriteKit/SKNode+HLLayoutManager.m"; sourceTree = "<group>"; };
-		D02213C7309B5DA0938D83D5FCE81BF0 /* HLSpriteKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HLSpriteKit-prefix.pch"; sourceTree = "<group>"; };
-		D071AC0AB4E4B0061142974DB34C5727 /* HLGestureTarget.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HLGestureTarget.m; path = HLSpriteKit/HLGestureTarget.m; sourceTree = "<group>"; };
-		D401997544A55B50C4C469E1DDA3CC42 /* HLToolbarNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLToolbarNode.h; path = HLSpriteKit/HLToolbarNode.h; sourceTree = "<group>"; };
-		D497B5B46CAA3605693FC2F8B5E74640 /* SKNode+INExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SKNode+INExtension.h"; path = "INSpriteKit/SKNode+INExtension.h"; sourceTree = "<group>"; };
-		DA9F3302AF28A7944D60D9CFBD6F20FD /* HLRingLayoutManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HLRingLayoutManager.m; path = HLSpriteKit/HLRingLayoutManager.m; sourceTree = "<group>"; };
-		DD5F2ABA35E6F703169CE866646E2A29 /* SKLabelNode+HLLabelNodeAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SKLabelNode+HLLabelNodeAdditions.h"; path = "HLSpriteKit/SKLabelNode+HLLabelNodeAdditions.h"; sourceTree = "<group>"; };
-		DF8C105B6334F79BD55EEA9D2A21FE83 /* HLLayoutManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLLayoutManager.h; path = HLSpriteKit/HLLayoutManager.h; sourceTree = "<group>"; };
-		E1895A7AA6E6D289B774CC6118342FAB /* HLOutlineLayoutManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLOutlineLayoutManager.h; path = HLSpriteKit/HLOutlineLayoutManager.h; sourceTree = "<group>"; };
-		E22A45B1B216B27D0363958B994DCD88 /* INSpriteKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "INSpriteKit-prefix.pch"; sourceTree = "<group>"; };
-		E28450E196FF9B04C49F4B9BDF86FB33 /* HLScrollNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLScrollNode.h; path = HLSpriteKit/HLScrollNode.h; sourceTree = "<group>"; };
-		E3BAEFFDBF8DEDF8BB8AB1EBC051CBD4 /* HLComponentNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLComponentNode.h; path = HLSpriteKit/HLComponentNode.h; sourceTree = "<group>"; };
-		E58453864979446F34E330360774BB39 /* SKNode+HLLayoutManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SKNode+HLLayoutManager.h"; path = "HLSpriteKit/SKNode+HLLayoutManager.h"; sourceTree = "<group>"; };
-		E96EE3AAD8C7068AFC549F19E015BEE1 /* HLLayoutManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HLLayoutManager.m; path = HLSpriteKit/HLLayoutManager.m; sourceTree = "<group>"; };
-		E9B7E9203EF5FB8A6626E6BFB4513456 /* SKNode+HLGestureTarget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SKNode+HLGestureTarget.h"; path = "HLSpriteKit/SKNode+HLGestureTarget.h"; sourceTree = "<group>"; };
-		EBDB7CE010D902DD207CD563D007C806 /* HLScene.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HLScene.m; path = HLSpriteKit/HLScene.m; sourceTree = "<group>"; };
-		F330C1F4DC5237F42461E77903CF340F /* HLSpriteKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HLSpriteKit.xcconfig; sourceTree = "<group>"; };
-		F4548F44A8A1976042D85C052F97B33B /* HLRingNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HLRingNode.m; path = HLSpriteKit/HLRingNode.m; sourceTree = "<group>"; };
-		FADFC89B557EF65FEB02DFAA2981C5B4 /* HLTableLayoutManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLTableLayoutManager.h; path = HLSpriteKit/HLTableLayoutManager.h; sourceTree = "<group>"; };
-		FC62B5D6EFD7AEFB7527FD430CF5B600 /* INSKTiledImageNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INSKTiledImageNode.h; path = INSpriteKit/INSKTiledImageNode.h; sourceTree = "<group>"; };
-		FCCC441109B98D130701B5E74728CCB0 /* UIImage+HLImageAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+HLImageAdditions.h"; path = "HLSpriteKit/UIImage+HLImageAdditions.h"; sourceTree = "<group>"; };
-		FD79D35EFD7C0373DEE8C21C347C11E2 /* HLScrollNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HLScrollNode.m; path = HLSpriteKit/HLScrollNode.m; sourceTree = "<group>"; };
-		FE29E9A284773A8F8354073B10ED4063 /* HLSpriteKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HLSpriteKit-umbrella.h"; sourceTree = "<group>"; };
-		FEA046FD198D26103362B0259D86B337 /* INSKView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INSKView.h; path = INSpriteKit/INSKView.h; sourceTree = "<group>"; };
-		FFFC68F8CAC55C38320684276655C50B /* HLTextureStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLTextureStore.h; path = HLSpriteKit/HLTextureStore.h; sourceTree = "<group>"; };
+		C5E4DC9390DE0AB33C20122DF183C912 /* NSGestureRecognizer+MultipleActions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSGestureRecognizer+MultipleActions.m"; path = "HLSpriteKit/NSGestureRecognizer+MultipleActions.m"; sourceTree = "<group>"; };
+		C62D1C9AC3804E1EB11E9678A03FA833 /* HLItemContentNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HLItemContentNode.m; path = HLSpriteKit/HLItemContentNode.m; sourceTree = "<group>"; };
+		C6B3973770E81B1CDA5D522EBD130C74 /* HLItemContentNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLItemContentNode.h; path = HLSpriteKit/HLItemContentNode.h; sourceTree = "<group>"; };
+		CB7EF88C727B41A03263CD02E7589845 /* INSKScrollNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = INSKScrollNode.m; path = INSpriteKit/INSKScrollNode.m; sourceTree = "<group>"; };
+		CDA5A8CAF0032430AF985B375C824385 /* SKNode+HLNodeVisuals.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SKNode+HLNodeVisuals.m"; path = "HLSpriteKit/SKNode+HLNodeVisuals.m"; sourceTree = "<group>"; };
+		CF78002255885A769536BE48E1CA37AB /* HLGridNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLGridNode.h; path = HLSpriteKit/HLGridNode.h; sourceTree = "<group>"; };
+		D02C2A968ED60955085775028DAA2301 /* HLGridLayoutManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLGridLayoutManager.h; path = HLSpriteKit/HLGridLayoutManager.h; sourceTree = "<group>"; };
+		D34BBD2AE344180CA52C7000DEF45961 /* HLTiledNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLTiledNode.h; path = HLSpriteKit/HLTiledNode.h; sourceTree = "<group>"; };
+		D55C9217511F6AC94577E368B6105667 /* HLLayoutManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLLayoutManager.h; path = HLSpriteKit/HLLayoutManager.h; sourceTree = "<group>"; };
+		D62687F481996E01F44B32C129EED92A /* SKLabelNode+HLLabelNodeAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SKLabelNode+HLLabelNodeAdditions.h"; path = "HLSpriteKit/SKLabelNode+HLLabelNodeAdditions.h"; sourceTree = "<group>"; };
+		DB6877545B2A587A7DB6C45EAFEA943D /* HLMultilineLabelNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLMultilineLabelNode.h; path = HLSpriteKit/HLMultilineLabelNode.h; sourceTree = "<group>"; };
+		DD6308C21B4066DD24B49B0047EC44E2 /* HLAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HLAction.m; path = HLSpriteKit/HLAction.m; sourceTree = "<group>"; };
+		E333B68E4FE6F4F30F82A0FF474804E7 /* INSpriteKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = INSpriteKit.xcconfig; sourceTree = "<group>"; };
+		E497A1DB407FA298EB31B27CF4D9CFFC /* HLComponentNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HLComponentNode.m; path = HLSpriteKit/HLComponentNode.m; sourceTree = "<group>"; };
+		E50FF7D523A6A9ACBACC86A9FA8830D7 /* HLScrollNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HLScrollNode.m; path = HLSpriteKit/HLScrollNode.m; sourceTree = "<group>"; };
+		ECE5311D97CE635F6BAB7694A445DFEE /* HLAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLAction.h; path = HLSpriteKit/HLAction.h; sourceTree = "<group>"; };
+		EFB8BCA4B905124104A790470AAFD3F5 /* HLMessageNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLMessageNode.h; path = HLSpriteKit/HLMessageNode.h; sourceTree = "<group>"; };
+		F540096C79C220F0A227AD450388F697 /* HLItemsNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLItemsNode.h; path = HLSpriteKit/HLItemsNode.h; sourceTree = "<group>"; };
+		F797FE11AA24A91FA0FF8DAFF0907356 /* SKNode+INExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SKNode+INExtension.m"; path = "INSpriteKit/SKNode+INExtension.m"; sourceTree = "<group>"; };
+		FC4143A0A09E9554BAE8FE7EB5115FE6 /* SKLabelNode+HLLabelNodeAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SKLabelNode+HLLabelNodeAdditions.m"; path = "HLSpriteKit/SKLabelNode+HLLabelNodeAdditions.m"; sourceTree = "<group>"; };
+		FCE4A29C2A2C5F491F274A5ADB520218 /* HLTableLayoutManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HLTableLayoutManager.m; path = HLSpriteKit/HLTableLayoutManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0BC2175E70EA0DFD2FFB9493B8FFDEDD /* Frameworks */ = {
+		26178A0012063F6F880A5004294C52DE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47B5F05B66E7F4C32882E35D2AFB1EF7 /* Foundation.framework in Frameworks */,
-				B85B6B4EE3FB4BBF4AB57700225D3304 /* SpriteKit.framework in Frameworks */,
-				0835673F320EDCEC07B94B1ECB315A36 /* UIKit.framework in Frameworks */,
+				399647AB8C026B88EBAF29398C97CF43 /* Foundation.framework in Frameworks */,
+				0721FFADBD6BE31025392073955DC6D5 /* SpriteKit.framework in Frameworks */,
+				41CACEA3D74C88A1BF51A747FE21B60C /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,31 +270,27 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5C45A47DD52618AE25FBB2F11B72305C /* INSpriteKit */ = {
+		32AED3A020B1A23FBBA78953129F2597 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BD947E5D9733012AE74B087C47A33058 /* INSKButtonNode.h */,
-				AB7594CBAA232B1260DDBFED0DC4E008 /* INSKButtonNode.m */,
-				4054E097B5CD058C21A6D9D963CA8BD7 /* INSKMath.h */,
-				26123285499E26C73A03BDC91E0EA467 /* INSKOSBridge.h */,
-				B188912CA9851AD1687D81DDA2D668D1 /* INSKOSBridge.m */,
-				6E4CE2C0D199E1051D2DF89F05681EEE /* INSKScrollNode.h */,
-				24AABBA77E44573FDCA4806E74B178F9 /* INSKScrollNode.m */,
-				FC62B5D6EFD7AEFB7527FD430CF5B600 /* INSKTiledImageNode.h */,
-				2261BE711222E370A3E5EDD82C089F2C /* INSKTiledImageNode.m */,
-				1E81E83A93A99100BBC638C0AFD0D7DD /* INSKTypes.h */,
-				FEA046FD198D26103362B0259D86B337 /* INSKView.h */,
-				8EE125324D09EC77A3919E97F309099D /* INSKView.m */,
-				9759F81FBFA25E1D177F00E61A9BD418 /* INSpriteKit.h */,
-				1E32C820B2931F0D593603BF2FF4C540 /* SKEmitterNode+INExtension.h */,
-				A773F2F867D477E98905B7F9AC80F268 /* SKEmitterNode+INExtension.m */,
-				D497B5B46CAA3605693FC2F8B5E74640 /* SKNode+INExtension.h */,
-				8DADE4D4FD8FE3E3FD55C70A5E117ACF /* SKNode+INExtension.m */,
-				93616D8181B92DF6777D7709B7E7925C /* SKSpriteNode+INExtension.h */,
-				16F078D1830D76622B0682A01AA2811E /* SKSpriteNode+INExtension.m */,
-				FCFA9BF6F2AE011859E8D8F787ADCFAA /* Support Files */,
+				867AF4EC549518DFF3A403438A25915D /* HLSpriteKit */,
+				D2B127128D01A3368E41A8A8D9C5C794 /* INSpriteKit */,
 			);
-			path = INSpriteKit;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4B6DCB16EB52D7F433B80D9C80A61E8C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				622B14362DD9B03CBBF6C9003A084685 /* Info.plist */,
+				A48AD22B0E0E4F00B2ECA5FD97C630ED /* INSpriteKit.modulemap */,
+				E333B68E4FE6F4F30F82A0FF474804E7 /* INSpriteKit.xcconfig */,
+				B5CA43D188CF2009ED7FA8B5426025D9 /* INSpriteKit-dummy.m */,
+				6170132AE29D6C91B3ECCFBA8BB245C0 /* INSpriteKit-prefix.pch */,
+				0DEEAD410D5BD3B7DA8ADAA2AA310858 /* INSpriteKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/INSpriteKit";
 			sourceTree = "<group>";
 		};
 		735099986A253CA342D1FF0A781695F5 /* Targets Support Files */ = {
@@ -302,7 +306,7 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
-				FA7F86C2F02F4DB5228D175421DCC946 /* Pods */,
+				32AED3A020B1A23FBBA78953129F2597 /* Pods */,
 				861A386149B8887993CFECA6615746AD /* Products */,
 				735099986A253CA342D1FF0A781695F5 /* Targets Support Files */,
 			);
@@ -318,82 +322,72 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8CDAFC1CFCF2C62F00229B83BD91D9F3 /* HLSpriteKit */ = {
+		867AF4EC549518DFF3A403438A25915D /* HLSpriteKit */ = {
 			isa = PBXGroup;
 			children = (
-				6ADE2D492D1E7A2EF3E286B0CE8F1695 /* HLAction.h */,
-				03E490FA9BC596FC89C5A75303ADB171 /* HLAction.m */,
-				E3BAEFFDBF8DEDF8BB8AB1EBC051CBD4 /* HLComponentNode.h */,
-				5914780CC4B06D3829A38BCABE87E8D8 /* HLComponentNode.m */,
-				46C8909B49C350D0A0146C3B076ADC27 /* HLEmitterStore.h */,
-				0CD1BF140B7633180787433110AABB92 /* HLEmitterStore.m */,
-				1A27BEC05A70A9EB3E1077F611BF8E43 /* HLError.h */,
-				C2259AFAA99E4FF6A2429218FA41E455 /* HLGestureTarget.h */,
-				D071AC0AB4E4B0061142974DB34C5727 /* HLGestureTarget.m */,
-				0DE068C018BC5BEBC79C3098A6293491 /* HLGridNode.h */,
-				CECE1CE6AA173A99F08399D77C52905B /* HLGridNode.m */,
-				24CEDD1D0F5A46B4D4320A4773F4321E /* HLItemContentNode.h */,
-				8371771AD5CFDF9EC5517E5F3025930A /* HLItemContentNode.m */,
-				20DF538B9DB8CDFAF196862B0BB3159A /* HLItemNode.h */,
-				0ADA084CB9431645915551896C27FC50 /* HLItemNode.m */,
-				2BE276D09F0CA617271CE9A1C69A4059 /* HLItemsNode.h */,
-				27EE3653F159BF2EFEA94F775725CF99 /* HLItemsNode.m */,
-				9C1280221D1A0CA825F8CA295CF6E6E3 /* HLLabelButtonNode.h */,
-				105DD2A03DECD62CF1E974C68A194DB9 /* HLLabelButtonNode.m */,
-				DF8C105B6334F79BD55EEA9D2A21FE83 /* HLLayoutManager.h */,
-				E96EE3AAD8C7068AFC549F19E015BEE1 /* HLLayoutManager.m */,
-				3CB1F8A1A03302B40F4AF3BC1E60AA45 /* HLMath.h */,
-				84156CA8022BA9ED5A71CBDA8934411E /* HLMath.m */,
-				0E748BDCAE44039B45644689A67D985C /* HLMenuNode.h */,
-				296D9515357457828C10047202C1F91D /* HLMenuNode.m */,
-				B037312816F786FCD4F5BCD5C3352EE4 /* HLMessageNode.h */,
-				BC1EAE9E7EB1501859F5ABFED07FDB68 /* HLMessageNode.m */,
-				E1895A7AA6E6D289B774CC6118342FAB /* HLOutlineLayoutManager.h */,
-				5DDD84D11C150973E7E3A39A6A774E1A /* HLOutlineLayoutManager.m */,
-				C284EBFC150A86702A7D20F2BB3B259A /* HLRingLayoutManager.h */,
-				DA9F3302AF28A7944D60D9CFBD6F20FD /* HLRingLayoutManager.m */,
-				9F22A0BB8F54CF01B7BB54256A47585F /* HLRingNode.h */,
-				F4548F44A8A1976042D85C052F97B33B /* HLRingNode.m */,
-				487EF28C90259C985D0BD1C81D82FBAD /* HLScene.h */,
-				EBDB7CE010D902DD207CD563D007C806 /* HLScene.m */,
-				E28450E196FF9B04C49F4B9BDF86FB33 /* HLScrollNode.h */,
-				FD79D35EFD7C0373DEE8C21C347C11E2 /* HLScrollNode.m */,
-				148FD8FA781DC76AEBD7A3DC1E3E4AC0 /* HLSpriteKit.h */,
-				FADFC89B557EF65FEB02DFAA2981C5B4 /* HLTableLayoutManager.h */,
-				4FF1864E36D31C5297FFF5B1517D521A /* HLTableLayoutManager.m */,
-				FFFC68F8CAC55C38320684276655C50B /* HLTextureStore.h */,
-				0743C1DB16A4B1E902659C8F4ADE48AE /* HLTextureStore.m */,
-				37007FF6896A307B26D3619B368394F3 /* HLTiledNode.h */,
-				72888E24C5C600EB04CD6F18F257DBCA /* HLTiledNode.m */,
-				D401997544A55B50C4C469E1DDA3CC42 /* HLToolbarNode.h */,
-				B498B8EC4CFC0E9D1A30715316799B84 /* HLToolbarNode.m */,
-				DD5F2ABA35E6F703169CE866646E2A29 /* SKLabelNode+HLLabelNodeAdditions.h */,
-				978CBD55912941A44FD354C1673C7492 /* SKLabelNode+HLLabelNodeAdditions.m */,
-				E9B7E9203EF5FB8A6626E6BFB4513456 /* SKNode+HLGestureTarget.h */,
-				4FED050F457352F236F806AFCDB486A4 /* SKNode+HLGestureTarget.m */,
-				E58453864979446F34E330360774BB39 /* SKNode+HLLayoutManager.h */,
-				CFF2D147A650A9E8E6A21272A2398C47 /* SKNode+HLLayoutManager.m */,
-				4F881B67482905164C5F5AF30CB23329 /* SKNode+HLNodeVisuals.h */,
-				1B9A9223303DBADFE0DC0E180866C0F0 /* SKNode+HLNodeVisuals.m */,
-				FCCC441109B98D130701B5E74728CCB0 /* UIImage+HLImageAdditions.h */,
-				94662473E275E566C96E8948573117D8 /* UIImage+HLImageAdditions.m */,
-				9E1085BA799A83C1B597978CB730F1C5 /* Support Files */,
+				ECE5311D97CE635F6BAB7694A445DFEE /* HLAction.h */,
+				DD6308C21B4066DD24B49B0047EC44E2 /* HLAction.m */,
+				3EABD2BBFDF68CD7057D765E6BD392B9 /* HLComponentNode.h */,
+				E497A1DB407FA298EB31B27CF4D9CFFC /* HLComponentNode.m */,
+				8F337DA06CB6CFFD196A949531DAD15F /* HLEmitterStore.h */,
+				8568C56CD0E3D7AEEB8268C49BC1D1C3 /* HLEmitterStore.m */,
+				AEA9A7891CFF0CDB5DFDFB46043A2530 /* HLError.h */,
+				7BACEBC96CAD1A3625BE29F0EC426B0F /* HLGestureTarget.h */,
+				182F1BCF0D0799F1E76F4366B89C11BB /* HLGestureTarget.m */,
+				D02C2A968ED60955085775028DAA2301 /* HLGridLayoutManager.h */,
+				4D3CAEFF8FCD88B44CE4CA87A0B35220 /* HLGridLayoutManager.m */,
+				CF78002255885A769536BE48E1CA37AB /* HLGridNode.h */,
+				43ABCF17033DEC72C67494EC2425A277 /* HLGridNode.m */,
+				C6B3973770E81B1CDA5D522EBD130C74 /* HLItemContentNode.h */,
+				C62D1C9AC3804E1EB11E9678A03FA833 /* HLItemContentNode.m */,
+				36CABD280887CE18EBA4A7D05CC7D0BC /* HLItemNode.h */,
+				2AE6AD9F50724C7B4FDB18ED24CA119C /* HLItemNode.m */,
+				F540096C79C220F0A227AD450388F697 /* HLItemsNode.h */,
+				2D940E5A0E9B61F52D8AF36271DCCCBB /* HLItemsNode.m */,
+				5B8DDCB537009182A4E82D7F67FA93F3 /* HLLabelButtonNode.h */,
+				0AACE773509ECBF4C5291D0C5EC32091 /* HLLabelButtonNode.m */,
+				D55C9217511F6AC94577E368B6105667 /* HLLayoutManager.h */,
+				377E683B13D12611B07E90BBD9ABD896 /* HLLayoutManager.m */,
+				335031DB8760279F638B94C82FB833F0 /* HLMath.h */,
+				57AB16D16ADDF11663A3DDB48332D28D /* HLMath.m */,
+				53B8A1B9593F69C2B6262371B056D35B /* HLMenuNode.h */,
+				1544B653FE1CC9E6F50263B1963CDCE5 /* HLMenuNode.m */,
+				EFB8BCA4B905124104A790470AAFD3F5 /* HLMessageNode.h */,
+				59933A461D7734372A92DB343CBC1F73 /* HLMessageNode.m */,
+				DB6877545B2A587A7DB6C45EAFEA943D /* HLMultilineLabelNode.h */,
+				5F4AF42DB822A6D860FF5B95C1997B59 /* HLMultilineLabelNode.m */,
+				2D5580B7425BF20E4EE040EAE25601D0 /* HLOutlineLayoutManager.h */,
+				0F4F7C7C74BC707E21F81DC5DF4C46A5 /* HLOutlineLayoutManager.m */,
+				15577E10C30471A077A4D5349FDA90E9 /* HLRingLayoutManager.h */,
+				46D4E861A8BD59AD6A3B4ACB189AF4DA /* HLRingLayoutManager.m */,
+				8CEA9044741C0DB28123139F3D1781E1 /* HLRingNode.h */,
+				8C2F72BE94E28220DB74770F28F20673 /* HLRingNode.m */,
+				5D281BFD6F530F22DB8B153F5943D1CC /* HLScene.h */,
+				982A0CF391E2596CC2EEAE788B4C15BA /* HLScene.m */,
+				145D968748FD8DB48847182BF75A0849 /* HLScrollNode.h */,
+				E50FF7D523A6A9ACBACC86A9FA8830D7 /* HLScrollNode.m */,
+				BB49A42064CE4C95CCE8FAB8603827C9 /* HLSpriteKit.h */,
+				8B64A521E20A290F2295211ACAFD2BFB /* HLTableLayoutManager.h */,
+				FCE4A29C2A2C5F491F274A5ADB520218 /* HLTableLayoutManager.m */,
+				D34BBD2AE344180CA52C7000DEF45961 /* HLTiledNode.h */,
+				32C5054173AECBC0E4D38AC06D092284 /* HLTiledNode.m */,
+				3E0A8E6604A3D35E7C8C522A8EFA92DE /* HLToolbarNode.h */,
+				87E8DF3055C1EAB60053ACAF4C967C6B /* HLToolbarNode.m */,
+				B851E79859DE662F483E70ACFC33E623 /* NSGestureRecognizer+MultipleActions.h */,
+				C5E4DC9390DE0AB33C20122DF183C912 /* NSGestureRecognizer+MultipleActions.m */,
+				D62687F481996E01F44B32C129EED92A /* SKLabelNode+HLLabelNodeAdditions.h */,
+				FC4143A0A09E9554BAE8FE7EB5115FE6 /* SKLabelNode+HLLabelNodeAdditions.m */,
+				35D83624E13D79988B6F595861CD9342 /* SKNode+HLGestureTarget.h */,
+				6F37A0FBA5CEAFBBD00C398BA46A94DC /* SKNode+HLGestureTarget.m */,
+				6A13F27BDD89F6123FAB2BBF28D9A7D6 /* SKNode+HLLayoutManager.h */,
+				11E3FD0AF4FDE070A33E973B588400BA /* SKNode+HLLayoutManager.m */,
+				17A26981DC5CD36F2CB24FA1E0EBC5FE /* SKNode+HLNodeVisuals.h */,
+				CDA5A8CAF0032430AF985B375C824385 /* SKNode+HLNodeVisuals.m */,
+				3DF411D9DE6925B6228DCE7AA83AC36C /* UIImage+HLImageAdditions.h */,
+				A57595D2C4875BB54CCC85F013776CD3 /* UIImage+HLImageAdditions.m */,
+				D921BB6D5358962515271711F87A95A1 /* Support Files */,
 			);
 			path = HLSpriteKit;
-			sourceTree = "<group>";
-		};
-		9E1085BA799A83C1B597978CB730F1C5 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B9D6796E3830BD1457172E26130E2DA5 /* HLSpriteKit.modulemap */,
-				F330C1F4DC5237F42461E77903CF340F /* HLSpriteKit.xcconfig */,
-				78E4684F241A05A5D156383FC868DFDA /* HLSpriteKit-dummy.m */,
-				D02213C7309B5DA0938D83D5FCE81BF0 /* HLSpriteKit-prefix.pch */,
-				FE29E9A284773A8F8354073B10ED4063 /* HLSpriteKit-umbrella.h */,
-				18C5CCC7FC70BFD07A2953C4105BBCCE /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/HLSpriteKit";
 			sourceTree = "<group>";
 		};
 		C186C8D772D2F47097D5D4064CD4F8E1 /* Pods-GameTest */ = {
@@ -414,6 +408,47 @@
 			path = "Target Support Files/Pods-GameTest";
 			sourceTree = "<group>";
 		};
+		D2B127128D01A3368E41A8A8D9C5C794 /* INSpriteKit */ = {
+			isa = PBXGroup;
+			children = (
+				6BC4F89347054F92BA669A390EB9AD4B /* INSKButtonNode.h */,
+				8806E49534AF51B3239F20B3A10F063A /* INSKButtonNode.m */,
+				7921688E0A3A01E2CC3205AF16A27CB0 /* INSKMath.h */,
+				552B98C12740019FADD4F6C4ED9B0D26 /* INSKOSBridge.h */,
+				301DFDEB611CA022AB80B675CC248A44 /* INSKOSBridge.m */,
+				2156D4025BA67202F44C2658B19FDB67 /* INSKScrollNode.h */,
+				CB7EF88C727B41A03263CD02E7589845 /* INSKScrollNode.m */,
+				8BD3593C7F9A6546DA6D05A36FEB4528 /* INSKTiledImageNode.h */,
+				82C9E6564E29AE0D4D908CD339588892 /* INSKTiledImageNode.m */,
+				236E45762AD5A8D30BFE02C85173CB0B /* INSKTypes.h */,
+				0B7115EDEE96D80C2980D03B200BAC5F /* INSKView.h */,
+				883DBFEF617CC09B0564E32EC8DEC284 /* INSKView.m */,
+				432D17EED426BA3053A1D6507A37EA10 /* INSpriteKit.h */,
+				073C8BC4F949FDD1A5B1D70AD6C0A511 /* SKEmitterNode+INExtension.h */,
+				7AB1B92828EC8877EBB219D631E0F2D7 /* SKEmitterNode+INExtension.m */,
+				5284F918A04A49A0423136A085CBB2EC /* SKNode+INExtension.h */,
+				F797FE11AA24A91FA0FF8DAFF0907356 /* SKNode+INExtension.m */,
+				BD4A8D5844B98A5515B32B573CD95582 /* SKSpriteNode+INExtension.h */,
+				1512B867CD0EB1069B551B0E66A67829 /* SKSpriteNode+INExtension.m */,
+				4B6DCB16EB52D7F433B80D9C80A61E8C /* Support Files */,
+			);
+			path = INSpriteKit;
+			sourceTree = "<group>";
+		};
+		D921BB6D5358962515271711F87A95A1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0F91A95490C99C6368EA5D7A5C718FF /* HLSpriteKit.modulemap */,
+				9D9E808F2BB8B60CBA3AAD0A1BB30908 /* HLSpriteKit.xcconfig */,
+				699E0788222C86C5A58EEF3E764EFA67 /* HLSpriteKit-dummy.m */,
+				3DF217795757C607FF77A41894A1173B /* HLSpriteKit-prefix.pch */,
+				240C77004927AE136DD438F54CE87D9D /* HLSpriteKit-umbrella.h */,
+				537627A03F3A8B0FA7BAEF9EF288E54D /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HLSpriteKit";
+			sourceTree = "<group>";
+		};
 		F7565E6D4E4BB9BC1EC9772C686A8594 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -423,29 +458,6 @@
 				A958D9F28EBB465723B96A95AEAD3DDE /* UIKit.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		FA7F86C2F02F4DB5228D175421DCC946 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8CDAFC1CFCF2C62F00229B83BD91D9F3 /* HLSpriteKit */,
-				5C45A47DD52618AE25FBB2F11B72305C /* INSpriteKit */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		FCFA9BF6F2AE011859E8D8F787ADCFAA /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A0C1EC3637B92D8E64F1CDE0F52335B0 /* Info.plist */,
-				254D4597FEA512F197E32CF83E0A47C2 /* INSpriteKit.modulemap */,
-				9B298E184B4361E0098964ADE90BCA6E /* INSpriteKit.xcconfig */,
-				261F087F343F65E9BF24966A5704740F /* INSpriteKit-dummy.m */,
-				E22A45B1B216B27D0363958B994DCD88 /* INSpriteKit-prefix.pch */,
-				6488082C65667D0D70BDFDBF9547F7D6 /* INSpriteKit-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/INSpriteKit";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -470,40 +482,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CF4BD7EFA2DDFDE895C5945C69763D16 /* Headers */ = {
+		D40B97BAFDC66D5A82371A39FD737A8A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A634CE01D4E1E12C754A5B08FA8BB731 /* HLAction.h in Headers */,
-				BCF2DA07F615D545F3379D18696EF7E5 /* HLComponentNode.h in Headers */,
-				A552FDE42B44AF78D7C8CE0884EA2193 /* HLEmitterStore.h in Headers */,
-				0CD23164FB6B32112E3AF7B3C2A9DAB9 /* HLError.h in Headers */,
-				20C8A591FA8696C47B75DE97AEB5E841 /* HLGestureTarget.h in Headers */,
-				0EF1C3600BDDBB5D41FB526C54DF8643 /* HLGridNode.h in Headers */,
-				95788ADE032640900CD83914DE66D703 /* HLItemContentNode.h in Headers */,
-				EE2A7AD39D1819811A67B7106EABD559 /* HLItemNode.h in Headers */,
-				3D37540678634C57C5A738D2D1691397 /* HLItemsNode.h in Headers */,
-				F34C16A9B96F271CC36EE0282FB5EBDC /* HLLabelButtonNode.h in Headers */,
-				471D1519A0EEDC10206AD17BB9EC9EA9 /* HLLayoutManager.h in Headers */,
-				C18529BDAD4C14CACBCEA0A94D70576B /* HLMath.h in Headers */,
-				442F483ADA02D4D6C09FE8E856778E27 /* HLMenuNode.h in Headers */,
-				741591974E84D709BC356923D65484C2 /* HLMessageNode.h in Headers */,
-				1D77E9223DF6EF8CE9450A749D18F91D /* HLOutlineLayoutManager.h in Headers */,
-				2C846E26FC8100C6DC637BDA07AB50C1 /* HLRingLayoutManager.h in Headers */,
-				AF318097587B2A9B117497D35BCECFF7 /* HLRingNode.h in Headers */,
-				31F9BC2A11926A49F46377F18A75D928 /* HLScene.h in Headers */,
-				F6C19301C7412E4BADDFBDE050641EAC /* HLScrollNode.h in Headers */,
-				AAC46CE21F269CABD05962C671041E52 /* HLSpriteKit-umbrella.h in Headers */,
-				4AE92589B0F90A861E39F6C65E3CEE48 /* HLSpriteKit.h in Headers */,
-				2818D42DA09B3119B8EC8FE4CB78E532 /* HLTableLayoutManager.h in Headers */,
-				F7DD1BA8DBBBEB0AB4AA2438056C49E1 /* HLTextureStore.h in Headers */,
-				2181CAC2109E06A839E773E2DA24D3F8 /* HLTiledNode.h in Headers */,
-				2D69DF76ED525B4AFECB3D4A1B2DBC25 /* HLToolbarNode.h in Headers */,
-				E8A60121014224283D89AFE24F890F66 /* SKLabelNode+HLLabelNodeAdditions.h in Headers */,
-				93534FAD157DD705C2A2FFAFB66B0499 /* SKNode+HLGestureTarget.h in Headers */,
-				1FB58E51DB203AEC1CBEFB0C9737D06E /* SKNode+HLLayoutManager.h in Headers */,
-				556F725ABA021D7F8A86022D16BE166F /* SKNode+HLNodeVisuals.h in Headers */,
-				6502058A46CD1E32276F08916F9FB3A8 /* UIImage+HLImageAdditions.h in Headers */,
+				AF22A7BC002EC110AEEE1CAB07B85A32 /* HLAction.h in Headers */,
+				8279AC761850C0A67A0F32B9CE6C2CD5 /* HLComponentNode.h in Headers */,
+				EB7EC80DF349DF89E050457C1F9C9F0F /* HLEmitterStore.h in Headers */,
+				DFBD663869DA2D3F0768898646BD35FD /* HLError.h in Headers */,
+				D08A9D20869E1ACC6EAA2D0ACD349C09 /* HLGestureTarget.h in Headers */,
+				7CF054E8BDFCF9D9CD26F495072CA217 /* HLGridLayoutManager.h in Headers */,
+				01624A0FC914FE59A5B995735C7EBF8B /* HLGridNode.h in Headers */,
+				2154356AB73D6C4851D8017A938DE91C /* HLItemContentNode.h in Headers */,
+				67574F850331423DE1A3B6A7A4CBF6DC /* HLItemNode.h in Headers */,
+				039F8C141D032232AD9E43B26B0C1D14 /* HLItemsNode.h in Headers */,
+				173AF565410C197A7491205A195AE1DE /* HLLabelButtonNode.h in Headers */,
+				3C01EFBE8E6DAB8D630142044CEE8765 /* HLLayoutManager.h in Headers */,
+				D02E9F6FCBB2BF1E1EC7B05AB2D40D5F /* HLMath.h in Headers */,
+				FA912E291A923154AF88BC4A2A3C0BD8 /* HLMenuNode.h in Headers */,
+				466164560D05276234B177C06B9C6ED1 /* HLMessageNode.h in Headers */,
+				B6D87456AFA722927575091D11D7E02D /* HLMultilineLabelNode.h in Headers */,
+				037ED6D00AEF54A797951381207537EE /* HLOutlineLayoutManager.h in Headers */,
+				82B205B880A616B3135C2C9C4AC91E06 /* HLRingLayoutManager.h in Headers */,
+				A041C736C4B8DF7C9455FBE7EF20183E /* HLRingNode.h in Headers */,
+				AA1F5FF24745070EDD9B3D076198BBF8 /* HLScene.h in Headers */,
+				49B71D98C31D57A969FFB737C2712B9B /* HLScrollNode.h in Headers */,
+				7BF3EFBFECA2DF33183D77493E8CB138 /* HLSpriteKit-umbrella.h in Headers */,
+				A33B2D6944036A56051A170BE8FA5C70 /* HLSpriteKit.h in Headers */,
+				E40DBC8CB33EA9D1626CC28D932C18ED /* HLTableLayoutManager.h in Headers */,
+				9831690C92F9F5A20A0A682A16499560 /* HLTiledNode.h in Headers */,
+				C7DD364135592263BE2B5D3C1046A23C /* HLToolbarNode.h in Headers */,
+				D16D873B14DC3D6EDC9ACD30BFC297F4 /* NSGestureRecognizer+MultipleActions.h in Headers */,
+				3A9339A03E7F548B95B256820436C3A9 /* SKLabelNode+HLLabelNodeAdditions.h in Headers */,
+				730575873FCBE26391596EC919E7F417 /* SKNode+HLGestureTarget.h in Headers */,
+				FC28162F56E0C79BCF730B732816597A /* SKNode+HLLayoutManager.h in Headers */,
+				56D57C67B71764CC6B8BA80075B1E273 /* SKNode+HLNodeVisuals.h in Headers */,
+				3A72205B1322F9235B936CB74CDE478C /* UIImage+HLImageAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,6 +532,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		1421E63D723A18F543E94AD7942C3CF1 /* HLSpriteKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B0AB87078B5D7D4B61E4456EB68AD63 /* Build configuration list for PBXNativeTarget "HLSpriteKit" */;
+			buildPhases = (
+				1B893A2168EC8EDDC1194D4139715B57 /* Sources */,
+				26178A0012063F6F880A5004294C52DE /* Frameworks */,
+				D40B97BAFDC66D5A82371A39FD737A8A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HLSpriteKit;
+			productName = HLSpriteKit;
+			productReference = 2DB52FEE32AC4424B9CF4878334DDA16 /* HLSpriteKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		6CB6E15E052EB87B3BE419891EABEF75 /* INSpriteKit */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 220345FCDC6E280F401B6F4C98F91384 /* Build configuration list for PBXNativeTarget "INSpriteKit" */;
@@ -554,23 +585,6 @@
 			productReference = BD963B27F30905344AC5F0571D63D8A3 /* Pods_GameTest.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		8E13EF1F31F07CD75ABEEE3DB4F4387E /* HLSpriteKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D9BF7B249BD56CBCE30CF5FE662A9E4B /* Build configuration list for PBXNativeTarget "HLSpriteKit" */;
-			buildPhases = (
-				73EF89829487994975E87924003A7519 /* Sources */,
-				0BC2175E70EA0DFD2FFB9493B8FFDEDD /* Frameworks */,
-				CF4BD7EFA2DDFDE895C5945C69763D16 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = HLSpriteKit;
-			productName = HLSpriteKit;
-			productReference = 2DB52FEE32AC4424B9CF4878334DDA16 /* HLSpriteKit.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -592,7 +606,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8E13EF1F31F07CD75ABEEE3DB4F4387E /* HLSpriteKit */,
+				1421E63D723A18F543E94AD7942C3CF1 /* HLSpriteKit */,
 				6CB6E15E052EB87B3BE419891EABEF75 /* INSpriteKit */,
 				766377A7EEB10E20F211E27AA64BAB1D /* Pods-GameTest */,
 			);
@@ -600,38 +614,40 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		73EF89829487994975E87924003A7519 /* Sources */ = {
+		1B893A2168EC8EDDC1194D4139715B57 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6530C9079A1DE3CB44747525BF5CB458 /* HLAction.m in Sources */,
-				A7F18780C3E6B934F8ED441A8044E9E1 /* HLComponentNode.m in Sources */,
-				7A1185502BA8B6B592A6E0870AB9B923 /* HLEmitterStore.m in Sources */,
-				9129E22B03708369E774B3075D5F890D /* HLGestureTarget.m in Sources */,
-				41DAD2340181913FF43074C68A54A5C8 /* HLGridNode.m in Sources */,
-				80EDD9888AEF4FF21137CFD9037A7305 /* HLItemContentNode.m in Sources */,
-				A2DC2E086398B3C6E2A9CCC89C496A75 /* HLItemNode.m in Sources */,
-				D9ADEAF732685BC08EDE81AE2450561C /* HLItemsNode.m in Sources */,
-				C5746C477EEEBF5C6D5C5714A3A6DF55 /* HLLabelButtonNode.m in Sources */,
-				FF4520A126C033FDD658EFF9FF337597 /* HLLayoutManager.m in Sources */,
-				8C6D5E05106D249808FF95E87DF8CC35 /* HLMath.m in Sources */,
-				34F398EE15161EF11B806B949EAF19CA /* HLMenuNode.m in Sources */,
-				7F44406471494F2EEDFF7C33A86C47ED /* HLMessageNode.m in Sources */,
-				33DC03D641C2102FA0180B9533BDE8E5 /* HLOutlineLayoutManager.m in Sources */,
-				28A8853703AF34D876B1CD03041187FC /* HLRingLayoutManager.m in Sources */,
-				003B19AC089D702B0D8CAF7BF524E899 /* HLRingNode.m in Sources */,
-				50076280C6217357075123EFE3733AB4 /* HLScene.m in Sources */,
-				18AD563BD4424804A7453688F6B99F26 /* HLScrollNode.m in Sources */,
-				451C11B6C95E05422AABB5041C0E4214 /* HLSpriteKit-dummy.m in Sources */,
-				AA07CD93E2EBD65B47DE15E2F7A6B627 /* HLTableLayoutManager.m in Sources */,
-				58751D1F7386445432F3A054B8EFDBC2 /* HLTextureStore.m in Sources */,
-				6C6C10F675294E5A3CE5A1BFC0535224 /* HLTiledNode.m in Sources */,
-				F9EA62B0459E487315D6238AC9016A57 /* HLToolbarNode.m in Sources */,
-				150F4B9EC91339CA1A6548FA98E74BE1 /* SKLabelNode+HLLabelNodeAdditions.m in Sources */,
-				0467651062DFFB28A2E380BC8F615F89 /* SKNode+HLGestureTarget.m in Sources */,
-				5644403B41E41142B5BD4080A6ED3161 /* SKNode+HLLayoutManager.m in Sources */,
-				86B561D30074EDB4621A5A618AD5F60D /* SKNode+HLNodeVisuals.m in Sources */,
-				B7064C85BE26C7471DAEF24F99F0A0AE /* UIImage+HLImageAdditions.m in Sources */,
+				914A8213A770FFD19FCEC357025FA2B8 /* HLAction.m in Sources */,
+				EFC0E688206C066D9225EA88BEEC897B /* HLComponentNode.m in Sources */,
+				26747FEA88B8A41D97BE3C29A9B73929 /* HLEmitterStore.m in Sources */,
+				DDAE0FBE2C18409BC1D3E045E1D7CF8F /* HLGestureTarget.m in Sources */,
+				14687F43E11EDB0850E755E362CCC3B5 /* HLGridLayoutManager.m in Sources */,
+				D288F8C14522875A55AE0B693359CEC1 /* HLGridNode.m in Sources */,
+				86F30E12EA4980930BC7721088934279 /* HLItemContentNode.m in Sources */,
+				FA49A846D8C1668AE59664E40B07EA30 /* HLItemNode.m in Sources */,
+				7A9496A8947A0873AD72488DDBBAF136 /* HLItemsNode.m in Sources */,
+				A4FDCB9548A37803F936824F422B84EB /* HLLabelButtonNode.m in Sources */,
+				666EB00292CB4B274179D3183C13D35F /* HLLayoutManager.m in Sources */,
+				382DDEA78FDCDA57141CFBEC11B27642 /* HLMath.m in Sources */,
+				150942B1B44E159DFBC47874955C23C9 /* HLMenuNode.m in Sources */,
+				566FA65DEA2467E1BAF5DFDBD9963FB4 /* HLMessageNode.m in Sources */,
+				C6DDD6C831F8BBFC5B935225D9F22ADE /* HLMultilineLabelNode.m in Sources */,
+				47AC7618D41B2996BEB8D5B6E82EFE30 /* HLOutlineLayoutManager.m in Sources */,
+				EF9B5EB33F4ECC4C4170DFEF4DEF7D9D /* HLRingLayoutManager.m in Sources */,
+				409E68420B7352D948B6819492601A49 /* HLRingNode.m in Sources */,
+				E12A1C3D920C8637436410F60D6C3F17 /* HLScene.m in Sources */,
+				DFEC3514EE07885873513593C1C8AB00 /* HLScrollNode.m in Sources */,
+				D459DDA94899BCC00C03A48CB8D8CF73 /* HLSpriteKit-dummy.m in Sources */,
+				1118A21F614B0B6B6CD4532582C1C6A7 /* HLTableLayoutManager.m in Sources */,
+				634D497ED65C65679D12CA0271274655 /* HLTiledNode.m in Sources */,
+				079AAF58B8C8C555919B6830ABBD58F4 /* HLToolbarNode.m in Sources */,
+				3B633242943050274464FCD686A69E10 /* NSGestureRecognizer+MultipleActions.m in Sources */,
+				933F6D11503E4CFEAA4EE282ADB84F8A /* SKLabelNode+HLLabelNodeAdditions.m in Sources */,
+				AF804ABB5C8F7D2D9B1484BD0EC49BA0 /* SKNode+HLGestureTarget.m in Sources */,
+				DFCB2E1070D602F8E3D699F854D8D7BA /* SKNode+HLLayoutManager.m in Sources */,
+				E5F232A4CCC0755B75982DF24E19D940 /* SKNode+HLNodeVisuals.m in Sources */,
+				B6B27CB4B46335A6D8773E8299370E2C /* UIImage+HLImageAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -671,13 +687,13 @@
 		19E29296EE5E85F345189F5902FB57F3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HLSpriteKit;
-			target = 8E13EF1F31F07CD75ABEEE3DB4F4387E /* HLSpriteKit */;
+			target = 1421E63D723A18F543E94AD7942C3CF1 /* HLSpriteKit */;
 			targetProxy = 233B251D4D041756AB09979BD8F55880 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+		12914D756594D15C6F2CA12FE5F89F1B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -713,7 +729,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -721,9 +737,105 @@
 			};
 			name = Debug;
 		};
-		2678F35146A69E49C232C1560A2FA0C4 /* Release */ = {
+		55F367443B9ED5FEAE9552A722E7EEF0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F330C1F4DC5237F42461E77903CF340F /* HLSpriteKit.xcconfig */;
+			baseConfigurationReference = 2D841B62ED34F11F6CC28128E3168B27 /* Pods-GameTest.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GameTest/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GameTest/Pods-GameTest.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GameTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		74DADCDD4B9CAB21E8D11E432F445E70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AB943B1F697002FB65F21159C67B4ED /* Pods-GameTest.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GameTest/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GameTest/Pods-GameTest.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GameTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7E15A5C910BB2BC8A950BD11239C1792 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E333B68E4FE6F4F30F82A0FF474804E7 /* INSpriteKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/INSpriteKit/INSpriteKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/INSpriteKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/INSpriteKit/INSpriteKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = INSpriteKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8065DC8EE8B5888C2E18FD4FB21D8672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D9E808F2BB8B60CBA3AAD0A1BB30908 /* HLSpriteKit.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
@@ -737,7 +849,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/HLSpriteKit/HLSpriteKit-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/HLSpriteKit/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/HLSpriteKit/HLSpriteKit.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -751,9 +863,9 @@
 			};
 			name = Release;
 		};
-		2BC071144C324D11589468F2C0592336 /* Debug */ = {
+		C0C27A11158685E72AA982255165C365 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F330C1F4DC5237F42461E77903CF340F /* HLSpriteKit.xcconfig */;
+			baseConfigurationReference = 9D9E808F2BB8B60CBA3AAD0A1BB30908 /* HLSpriteKit.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
@@ -767,7 +879,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/HLSpriteKit/HLSpriteKit-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/HLSpriteKit/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/HLSpriteKit/HLSpriteKit.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -781,7 +893,37 @@
 			};
 			name = Debug;
 		};
-		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+		E4CA1A5C44EC7FC5DEF0D3CB21F4705C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E333B68E4FE6F4F30F82A0FF474804E7 /* INSpriteKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/INSpriteKit/INSpriteKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/INSpriteKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/INSpriteKit/INSpriteKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = INSpriteKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E72E7977875C2D251FC62736BBDDC389 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -813,137 +955,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		6AA97119B306678F3006F66AA2C886E2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6AB943B1F697002FB65F21159C67B4ED /* Pods-GameTest.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-GameTest/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GameTest/Pods-GameTest.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_GameTest;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7E15A5C910BB2BC8A950BD11239C1792 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B298E184B4361E0098964ADE90BCA6E /* INSpriteKit.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/INSpriteKit/INSpriteKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/INSpriteKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/INSpriteKit/INSpriteKit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = INSpriteKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8222F58EE301D6430D19A5FFA62C3073 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D841B62ED34F11F6CC28128E3168B27 /* Pods-GameTest.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-GameTest/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GameTest/Pods-GameTest.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_GameTest;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E4CA1A5C44EC7FC5DEF0D3CB21F4705C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B298E184B4361E0098964ADE90BCA6E /* INSpriteKit.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/INSpriteKit/INSpriteKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/INSpriteKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/INSpriteKit/INSpriteKit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = INSpriteKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -959,11 +975,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		2B0AB87078B5D7D4B61E4456EB68AD63 /* Build configuration list for PBXNativeTarget "HLSpriteKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0C27A11158685E72AA982255165C365 /* Debug */,
+				8065DC8EE8B5888C2E18FD4FB21D8672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
-				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+				12914D756594D15C6F2CA12FE5F89F1B /* Debug */,
+				E72E7977875C2D251FC62736BBDDC389 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -971,17 +996,8 @@
 		90168A5FE90C55ABCB7948E3173E1941 /* Build configuration list for PBXNativeTarget "Pods-GameTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6AA97119B306678F3006F66AA2C886E2 /* Debug */,
-				8222F58EE301D6430D19A5FFA62C3073 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D9BF7B249BD56CBCE30CF5FE662A9E4B /* Build configuration list for PBXNativeTarget "HLSpriteKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2BC071144C324D11589468F2C0592336 /* Debug */,
-				2678F35146A69E49C232C1560A2FA0C4 /* Release */,
+				74DADCDD4B9CAB21E8D11E432F445E70 /* Debug */,
+				55F367443B9ED5FEAE9552A722E7EEF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
