@@ -10,6 +10,8 @@
 		5A454C361D9949B700C7BAAD /* HLSpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A454C351D9949B700C7BAAD /* HLSpriteKit.framework */; };
 		5AA39C5B1DB3614000CB02C8 /* ps1.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 5AA39C591DB3614000CB02C8 /* ps1.scnp */; };
 		5AA39C5C1DB3614000CB02C8 /* bokeh.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AA39C5A1DB3614000CB02C8 /* bokeh.png */; };
+		5AED80041DB363E800F75F1F /* fire.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5AED80021DB363E800F75F1F /* fire.sks */; };
+		5AED80051DB363E800F75F1F /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AED80031DB363E800F75F1F /* spark.png */; };
 		5AFF9A6C1D97BD2800249CA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFF9A6B1D97BD2800249CA1 /* AppDelegate.swift */; };
 		5AFF9A6E1D97BD2800249CA1 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5AFF9A6D1D97BD2800249CA1 /* GameScene.sks */; };
 		5AFF9A701D97BD2800249CA1 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5AFF9A6F1D97BD2800249CA1 /* Actions.sks */; };
@@ -26,6 +28,8 @@
 		5A454C351D9949B700C7BAAD /* HLSpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HLSpriteKit.framework; path = "Pods/../build/Debug-iphoneos/HLSpriteKit/HLSpriteKit.framework"; sourceTree = "<group>"; };
 		5AA39C591DB3614000CB02C8 /* ps1.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = ps1.scnp; sourceTree = "<group>"; };
 		5AA39C5A1DB3614000CB02C8 /* bokeh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bokeh.png; sourceTree = "<group>"; };
+		5AED80021DB363E800F75F1F /* fire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = fire.sks; path = ../fire.sks; sourceTree = "<group>"; };
+		5AED80031DB363E800F75F1F /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spark.png; path = ../spark.png; sourceTree = "<group>"; };
 		5AFF9A681D97BD2800249CA1 /* GameTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AFF9A6B1D97BD2800249CA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5AFF9A6D1D97BD2800249CA1 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -77,6 +81,8 @@
 		5AFF9A6A1D97BD2800249CA1 /* GameTest */ = {
 			isa = PBXGroup;
 			children = (
+				5AED80021DB363E800F75F1F /* fire.sks */,
+				5AED80031DB363E800F75F1F /* spark.png */,
 				5AFF9A6B1D97BD2800249CA1 /* AppDelegate.swift */,
 				5AA39C591DB3614000CB02C8 /* ps1.scnp */,
 				5AA39C5A1DB3614000CB02C8 /* bokeh.png */,
@@ -174,10 +180,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5AA39C5B1DB3614000CB02C8 /* ps1.scnp in Resources */,
+				5AED80051DB363E800F75F1F /* spark.png in Resources */,
 				5AFF9A771D97BD2800249CA1 /* Main.storyboard in Resources */,
 				5AFF9A6E1D97BD2800249CA1 /* GameScene.sks in Resources */,
 				5AFF9A791D97BD2800249CA1 /* Assets.xcassets in Resources */,
 				5AA39C5C1DB3614000CB02C8 /* bokeh.png in Resources */,
+				5AED80041DB363E800F75F1F /* fire.sks in Resources */,
 				5AFF9A7C1D97BD2800249CA1 /* LaunchScreen.storyboard in Resources */,
 				5AFF9A701D97BD2800249CA1 /* Actions.sks in Resources */,
 			);
