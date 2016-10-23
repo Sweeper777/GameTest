@@ -4,15 +4,27 @@ import HLSpriteKit
 
 class GameScene: SKScene {
     
+//    override func didMove(to view: SKView) {
+//        let recognizer = UISwipeGestureRecognizer(target: self, action: #selector(swiped))
+//        recognizer.direction = .right
+//        recognizer.numberOfTouchesRequired = 1
+//        self.view?.addGestureRecognizer(recognizer)
+//    }
+//    
+//    func swiped(sender: UISwipeGestureRecognizer) {
+//        print(sender.numberOfTouches)
+//    }
+    
     override func didMove(to view: SKView) {
-        let repeating: [AnyObject] = [AnyObject](repeating: NSNull(), count: 20)
-        var colors = [[AnyObject]](repeating: repeating, count: 10)
-        for i in 0..<20 {
-            colors[5][i] = SKSpriteNode(color: UIColor.white, size: CGSize(width: 50, height: 50))
-            self.addChild(colors[5][i] as! SKSpriteNode)
+        for i in 1...10 {
+            let recognizer = UISwipeGestureRecognizer(target: self, action: #selector(swipedRight))
+            recognizer.direction = .right
+            recognizer.numberOfTouchesRequired = i
+            self.view?.addGestureRecognizer(recognizer)
         }
-        let gridLayout = HLGridLayoutManager(squareSize: CGSize(width: 50, height: 50))!
-        gridLayout.fillMode = .downThenRight
-        gridLayout.layoutWith2DArray(colors)
+    }
+    
+    func swipedRight(sender: UISwipeGestureRecognizer) {
+        print(sender.numberOfTouches)
     }
 }

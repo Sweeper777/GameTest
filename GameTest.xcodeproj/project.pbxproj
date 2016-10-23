@@ -160,6 +160,7 @@
 				TargetAttributes = {
 					5AFF9A671D97BD2800249CA1 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = E9MW74DJ4Y;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -384,12 +385,14 @@
 			baseConfigurationReference = 6A2B7EE33E348A263E4B3FB3 /* Pods-GameTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E9MW74DJ4Y;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos/INSpriteKit",
 					"$(PROJECT_DIR)/build/Debug-iphoneos/HLSpriteKit",
 				);
 				INFOPLIST_FILE = GameTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.GameTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -402,12 +405,14 @@
 			baseConfigurationReference = 961A9FD453352927BC26439F /* Pods-GameTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E9MW74DJ4Y;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos/INSpriteKit",
 					"$(PROJECT_DIR)/build/Debug-iphoneos/HLSpriteKit",
 				);
 				INFOPLIST_FILE = GameTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.GameTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
