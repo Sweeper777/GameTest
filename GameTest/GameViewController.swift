@@ -11,7 +11,8 @@ import SpriteKit
 import GameplayKit
 
 class GameViewController: UIViewController {
-
+    var currentScene: SKScene!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -20,6 +21,7 @@ class GameViewController: UIViewController {
             if let scene = SKScene(fileNamed: "GameScene") {
                 // Set the scale mode to scale to fit the window
                 scene.scaleMode = .aspectFill
+                currentScene = scene
                 
                 // Present the scene
                 view.presentScene(scene)
@@ -51,5 +53,11 @@ class GameViewController: UIViewController {
 
     override var prefersStatusBarHidden: Bool {
         return true
+    }
+    
+    override func didRotate(from fromInterfaceOrientation: UIInterfaceOrientation) {
+        if let scene = currentScene as? GameScene {
+            scene.didChangeOrientation()
+        }
     }
 }
