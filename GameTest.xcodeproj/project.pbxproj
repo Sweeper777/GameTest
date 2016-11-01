@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5AA39C5B1DB3614000CB02C8 /* ps1.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 5AA39C591DB3614000CB02C8 /* ps1.scnp */; };
 		5AA39C5C1DB3614000CB02C8 /* bokeh.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AA39C5A1DB3614000CB02C8 /* bokeh.png */; };
+		5AAE6AF51DC7ED5800A31CE5 /* Fearless First.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5AAE6AF41DC7ED5800A31CE5 /* Fearless First.mp3 */; };
 		5AED80041DB363E800F75F1F /* fire.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5AED80021DB363E800F75F1F /* fire.sks */; };
 		5AED80051DB363E800F75F1F /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AED80031DB363E800F75F1F /* spark.png */; };
 		5AED80081DB3649600F75F1F /* spark.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5AED80061DB3649600F75F1F /* spark.sks */; };
@@ -30,6 +31,7 @@
 		5A454C351D9949B700C7BAAD /* HLSpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HLSpriteKit.framework; path = "Pods/../build/Debug-iphoneos/HLSpriteKit/HLSpriteKit.framework"; sourceTree = "<group>"; };
 		5AA39C591DB3614000CB02C8 /* ps1.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = ps1.scnp; sourceTree = "<group>"; };
 		5AA39C5A1DB3614000CB02C8 /* bokeh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bokeh.png; sourceTree = "<group>"; };
+		5AAE6AF41DC7ED5800A31CE5 /* Fearless First.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Fearless First.mp3"; sourceTree = "<group>"; };
 		5AED80021DB363E800F75F1F /* fire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = fire.sks; path = ../fire.sks; sourceTree = "<group>"; };
 		5AED80031DB363E800F75F1F /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spark.png; path = ../spark.png; sourceTree = "<group>"; };
 		5AED80061DB3649600F75F1F /* spark.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = spark.sks; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 		5AFF9A6A1D97BD2800249CA1 /* GameTest */ = {
 			isa = PBXGroup;
 			children = (
+				5AAE6AF41DC7ED5800A31CE5 /* Fearless First.mp3 */,
 				5AED80021DB363E800F75F1F /* fire.sks */,
 				5AED80031DB363E800F75F1F /* spark.png */,
 				5AFF9A6B1D97BD2800249CA1 /* AppDelegate.swift */,
@@ -189,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5AA39C5B1DB3614000CB02C8 /* ps1.scnp in Resources */,
+				5AAE6AF51DC7ED5800A31CE5 /* Fearless First.mp3 in Resources */,
 				5AED80051DB363E800F75F1F /* spark.png in Resources */,
 				5AED800C1DB3652300F75F1F /* magic.sks in Resources */,
 				5AFF9A771D97BD2800249CA1 /* Main.storyboard in Resources */,
