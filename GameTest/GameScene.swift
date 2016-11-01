@@ -13,8 +13,9 @@ class GameScene: SKScene {
         upperLeft.run(SKAction.colorize(with: UIColor.red, colorBlendFactor: 0.7, duration: 0))
         self.addChild(upperLeft)
         
-        let middle = SKSpriteNode(color: UIColor.red, size: CGSize(width: 100, height: 100))
+        let middle = SKSpriteNode(imageNamed: "collector")
         middle.anchorPoint = CGPoint(x: 0.5, y: 0.5)
+        middle.run(SKAction.colorize(with: UIColor.green, colorBlendFactor: 0.7, duration: 0))
         self.addChild(middle)
         
         self.backgroundColor = UIColor.white
