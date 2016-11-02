@@ -19,6 +19,13 @@ class GameScene: SKScene {
         self.addChild(middle)
         
         self.backgroundColor = UIColor.white
+        
+        let sequence = SKAction.sequence([SKAction.wait(forDuration: 3), SKAction.run {
+            let newScene = Scene2(fileNamed: "Scene2")!
+            self.view!.presentScene(newScene)
+            }])
+//        let playSound = SKAction.repeatForever(SKAction.playSoundFileNamed("Fearless First.mp3", waitForCompletion: true))
+        self.run(SKAction.group([sequence]))
     }
     
     func didChangeOrientation() {
