@@ -10,22 +10,11 @@ class GameScene: SKScene {
         upperLeft.anchorPoint = CGPoint(x: 0, y: 1)
         let point = view.convert(CGPoint.zero, to: self)
         upperLeft.position = point
-        upperLeft.run(SKAction.colorize(with: UIColor.red, colorBlendFactor: 0.7, duration: 0))
+        let action1 = SKAction.colorize(with: UIColor.red, colorBlendFactor: 0.7, duration: 0)
+        let wait = SKAction.wait(forDuration: 1)
+        let action2 = SKAction.colorize(withColorBlendFactor: 0, duration: 0)
+        upperLeft.run(SKAction.sequence([wait, action1, wait, action2]))
         self.addChild(upperLeft)
-        
-        let middle = SKSpriteNode(imageNamed: "collector")
-        middle.anchorPoint = CGPoint(x: 0.5, y: 0.5)
-        middle.run(SKAction.colorize(with: UIColor.green, colorBlendFactor: 0.7, duration: 0))
-        self.addChild(middle)
-        
-        self.backgroundColor = UIColor.white
-        
-        let sequence = SKAction.sequence([SKAction.wait(forDuration: 3), SKAction.run {
-            let newScene = Scene2(fileNamed: "Scene2")!
-            self.view!.presentScene(newScene)
-            }])
-//        let playSound = SKAction.repeatForever(SKAction.playSoundFileNamed("Fearless First.mp3", waitForCompletion: true))
-        self.run(SKAction.group([sequence]))
     }
     
     func didChangeOrientation() {
