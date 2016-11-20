@@ -86,8 +86,10 @@ strip_invalid_archs() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/HLSpriteKit/HLSpriteKit.framework"
   install_framework "$BUILT_PRODUCTS_DIR/INSpriteKit/INSpriteKit.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/NORLabelNode/NORLabelNode.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/HLSpriteKit/HLSpriteKit.framework"
   install_framework "$BUILT_PRODUCTS_DIR/INSpriteKit/INSpriteKit.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/NORLabelNode/NORLabelNode.framework"
 fi
