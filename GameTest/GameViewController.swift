@@ -59,10 +59,4 @@ class GameViewController: UIViewController {
     override var prefersStatusBarHidden: Bool {
         return true
     }
-    
-    override func didRotate(from fromInterfaceOrientation: UIInterfaceOrientation) {
-        if let scene = currentScene as? GameScene {
-            scene.didChangeOrientation()
-        }
-    }
 }
