@@ -12,20 +12,17 @@ class GameScene: SKScene {
         let pause = SKAction.run { self.isPaused = true }
         self.run(SKAction.sequence([wait, pause]))
         sprite = SKSpriteNode(imageNamed: "Spaceship")
-        sprite.anchorPoint = CGPoint.zero
-        sprite.position = CGPoint(x: self.frame.width / -2, y: self.frame.height / -2)
+        sprite.position = CGPoint(x: self.frame.width / -2 + sprite.frame.width / 2, y: self.frame.height / -2 + sprite.frame.width / 2)
         sprite.zPosition = 1000
-//        self.addChild(sprite)
-        
-        bg = self.childNode(withName: "bg") as! SKSpriteNode
-        sprite2 = SKSpriteNode(imageNamed: "Spaceship")
-        sprite2.anchorPoint = CGPoint.zero
-        sprite2.position = CGPoint(x: self.frame.width / -2, y: self.frame.height / -2)
-        sprite2.zPosition = 1000
-        bg.addChild(sprite2)
+        sprite.run(SKAction.rotate(toAngle: CGFloat(M_PI), duration: 0))
+        self.addChild(sprite)
     }
     
     override func update(_ currentTime: TimeInterval) {
         print("update")
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        sprite.run(SKAction.move(to: CGPoint.zero, duration: 5))
     }
 }
