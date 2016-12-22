@@ -14,5 +14,7 @@ class GameScene: SKScene {
         print(buttonLabel.isUserInteractionEnabled)
         
         print(self.isUserInteractionEnabled)
+        
+        self.isUserInteractionEnabled = false
     }
 }
