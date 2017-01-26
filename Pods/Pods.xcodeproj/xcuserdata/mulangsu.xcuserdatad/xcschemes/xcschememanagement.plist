@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>AYGestureHelpView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>HLSpriteKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -24,9 +29,24 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>pop.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>036B149B874B7EB93238A6544C34F89E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>03E3EFE34F6441E9F055C454252C173F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>044476E46E6C8C6280B392870A7B7B52</key>
 		<dict>
 			<key>primary</key>
@@ -37,12 +57,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>1C2E973C9452CE2FC695A465108B677D</key>
+		<key>6CB6E15E052EB87B3BE419891EABEF75</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6CB6E15E052EB87B3BE419891EABEF75</key>
+		<key>97D16053B434D6C0FA6144EA80B7AEFF</key>
 		<dict>
 			<key>primary</key>
 			<true/>

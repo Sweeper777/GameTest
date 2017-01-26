@@ -1,8 +1,8 @@
-FRAMEWORK_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/HLSpriteKit" "$PODS_CONFIGURATION_BUILD_DIR/INSpriteKit" "$PODS_CONFIGURATION_BUILD_DIR/NORLabelNode"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/AYGestureHelpView" "$PODS_CONFIGURATION_BUILD_DIR/HLSpriteKit" "$PODS_CONFIGURATION_BUILD_DIR/INSpriteKit" "$PODS_CONFIGURATION_BUILD_DIR/NORLabelNode" "$PODS_CONFIGURATION_BUILD_DIR/pop"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/HLSpriteKit/HLSpriteKit.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/INSpriteKit/INSpriteKit.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/NORLabelNode/NORLabelNode.framework/Headers"
-OTHER_LDFLAGS = $(inherited) -framework "HLSpriteKit" -framework "INSpriteKit" -framework "NORLabelNode"
+OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/AYGestureHelpView/AYGestureHelpView.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/HLSpriteKit/HLSpriteKit.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/INSpriteKit/INSpriteKit.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/NORLabelNode/NORLabelNode.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/pop/pop.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "AYGestureHelpView" -framework "HLSpriteKit" -framework "INSpriteKit" -framework "NORLabelNode" -framework "pop"
 PODS_BUILD_DIR = $BUILD_DIR
 PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_ROOT = ${SRCROOT}/Pods

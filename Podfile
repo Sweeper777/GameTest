@@ -8,4 +8,5 @@ target 'GameTest' do
   pod 'INSpriteKit'
   pod 'HLSpriteKit', :git => 'https://github.com/hilogames/HLSpriteKit.git'
   pod 'NORLabelNode'
+  pod 'AYGestureHelpView'
 end

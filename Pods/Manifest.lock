@@ -1,9 +1,13 @@
 PODS:
+  - AYGestureHelpView (0.2.0):
+    - pop (~> 1.0)
   - HLSpriteKit (1.2.0)
   - INSpriteKit (1.2.1)
   - NORLabelNode (0.9.2)
+  - pop (1.0.9)
 
 DEPENDENCIES:
+  - AYGestureHelpView
   - HLSpriteKit (from `https://github.com/hilogames/HLSpriteKit.git`)
   - INSpriteKit
   - NORLabelNode
@@ -18,10 +22,12 @@ CHECKOUT OPTIONS:
     :git: https://github.com/hilogames/HLSpriteKit.git
 
 SPEC CHECKSUMS:
+  AYGestureHelpView: e97569713638a7bd1a6ac193c54b608fbe9c55bb
   HLSpriteKit: 0cdd24ae853559266bd99eb08f3e7f6f9d835714
   INSpriteKit: 90943665f8ea4590989eb4eeb6cad4eb32b3d248
   NORLabelNode: db8991d0344eefe1f9273f0a078141d7e175c447
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
 
-PODFILE CHECKSUM: d3d98c4a37042a7157b3b4b487d3230d59186176
+PODFILE CHECKSUM: 623a2ba74f5ffde45482b8c9a6bfed8aedf05bba
 
 COCOAPODS: 1.1.0.beta.1
