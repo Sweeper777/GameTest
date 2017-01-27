@@ -10,6 +10,7 @@ import UIKit
 import AVFoundation
 import SpriteKit
 import GameplayKit
+import AYGestureHelpView
 
 class GameViewController: UIViewController {
     var currentScene: SKScene!
@@ -38,6 +39,13 @@ class GameViewController: UIViewController {
             audioPlayer.play()
         }
     }
+    
+    func test1() {
+        let helpView = AYGestureHelpView()
+        helpView.swipe(withLabelText: "Swipe!", label: CGPoint(x: view.center.x, y: view.center.y + 70), touchStart: CGPoint(x: view.center.x - 100, y: view.center.y), touchEnd: CGPoint(x: view.center.x + 100, y: view.center.y), dismissHandler: nil, hideOnDismiss: true)
+        self.view.addSubview(helpView)
+    }
+    
 
     override var shouldAutorotate: Bool {
         return true
