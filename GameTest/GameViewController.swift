@@ -46,6 +46,14 @@ class GameViewController: UIViewController {
         self.view.addSubview(helpView)
     }
     
+    func test2() {
+        let helpView = AYGestureHelpView()
+        helpView.doubleTap(withLabelText: "Double tap", label: CGPoint(x: self.view.center.x, y: self.view.center.y + 70), touch: self.view.center, dismissHandler: {
+        helpView.tap(withLabelText: "Tap!", label: CGPoint(x: self.view.center.x, y: self.view.center.y + 70), touch: self.view.center, dismissHandler: nil, hideOnDismiss: true)
+        }, hideOnDismiss: false)
+        self.view.addSubview(helpView)
+    }
+    
 
     override var shouldAutorotate: Bool {
         return true
