@@ -37,6 +37,8 @@ class GameViewController: UIViewController {
             audioPlayer.prepareToPlay()
             audioPlayer.numberOfLoops = -1
             audioPlayer.play()
+            
+            test3()
         }
     }
     
@@ -54,6 +56,11 @@ class GameViewController: UIViewController {
         self.view.addSubview(helpView)
     }
     
+    func test3() {
+        let helpView = AYGestureHelpView()
+        helpView.longPress(withLabelText: "Long Press", label: CGPoint(x: self.view.center.x, y: self.view.center.y + 70), touch: self.view.center, dismissHandler: nil, hideOnDismiss: true)
+        self.view.addSubview(helpView)
+    }
 
     override var shouldAutorotate: Bool {
         return true
