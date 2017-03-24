@@ -11,7 +11,9 @@ class ButtonNode: SKSpriteNode {
         isUserInteractionEnabled = true
     }
     
+    var onClick: (() -> Void)?
+    
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        print("Hi")
+        onClick?()
     }
 }
