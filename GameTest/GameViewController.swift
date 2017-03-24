@@ -37,8 +37,6 @@ class GameViewController: UIViewController {
             audioPlayer.prepareToPlay()
             audioPlayer.numberOfLoops = -1
             audioPlayer.play()
-            
-            test3()
         }
     }
     
