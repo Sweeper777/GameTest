@@ -14,7 +14,6 @@ import AYGestureHelpView
 
 class GameViewController: UIViewController {
     var currentScene: SKScene!
-    let audioPlayer = try! AVAudioPlayer(contentsOf: Bundle.main.url(forResource: "Fearless First", withExtension: "mp3")!)
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,9 +33,6 @@ class GameViewController: UIViewController {
             
             view.showsFPS = true
             view.showsNodeCount = true
-            audioPlayer.prepareToPlay()
-            audioPlayer.numberOfLoops = -1
-            audioPlayer.play()
         }
     }
     
