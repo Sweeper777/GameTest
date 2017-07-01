@@ -13,6 +13,7 @@
 		5A1D73F81DC8ABBE004130C1 /* Scene2.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5A1D73F71DC8ABBE004130C1 /* Scene2.sks */; };
 		5A1D73FA1DC8ABD7004130C1 /* Scene2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1D73F91DC8ABD7004130C1 /* Scene2.swift */; };
 		5A22B9911DE191DE008FE8F0 /* NORLabelNode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A22B9901DE191DE008FE8F0 /* NORLabelNode.framework */; };
+		5A2444F21F07830B00A88292 /* MySprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2444F11F07830B00A88292 /* MySprite.swift */; };
 		5AA39C5B1DB3614000CB02C8 /* ps1.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 5AA39C591DB3614000CB02C8 /* ps1.scnp */; };
 		5AA39C5C1DB3614000CB02C8 /* bokeh.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AA39C5A1DB3614000CB02C8 /* bokeh.png */; };
 		5AAE6AF51DC7ED5800A31CE5 /* Fearless First.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5AAE6AF41DC7ED5800A31CE5 /* Fearless First.mp3 */; };
@@ -40,6 +41,7 @@
 		5A1D73F71DC8ABBE004130C1 /* Scene2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene2.sks; sourceTree = "<group>"; };
 		5A1D73F91DC8ABD7004130C1 /* Scene2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scene2.swift; sourceTree = "<group>"; };
 		5A22B9901DE191DE008FE8F0 /* NORLabelNode.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NORLabelNode.framework; path = "Pods/../build/Debug-iphoneos/NORLabelNode/NORLabelNode.framework"; sourceTree = "<group>"; };
+		5A2444F11F07830B00A88292 /* MySprite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySprite.swift; sourceTree = "<group>"; };
 		5A454C351D9949B700C7BAAD /* HLSpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HLSpriteKit.framework; path = "Pods/../build/Debug-iphoneos/HLSpriteKit/HLSpriteKit.framework"; sourceTree = "<group>"; };
 		5AA39C591DB3614000CB02C8 /* ps1.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = ps1.scnp; sourceTree = "<group>"; };
 		5AA39C5A1DB3614000CB02C8 /* bokeh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bokeh.png; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				5AFF9A6D1D97BD2800249CA1 /* GameScene.sks */,
 				5A1D73F71DC8ABBE004130C1 /* Scene2.sks */,
 				5AFF9A6F1D97BD2800249CA1 /* Actions.sks */,
+				5A2444F11F07830B00A88292 /* MySprite.swift */,
 				5AFF9A711D97BD2800249CA1 /* GameScene.swift */,
 				5A1D73F91DC8ABD7004130C1 /* Scene2.swift */,
 				5AFF9A731D97BD2800249CA1 /* GameViewController.swift */,
@@ -283,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A2444F21F07830B00A88292 /* MySprite.swift in Sources */,
 				5AFF9A721D97BD2800249CA1 /* GameScene.swift in Sources */,
 				5AFF9A741D97BD2800249CA1 /* GameViewController.swift in Sources */,
 				5AFF9A6C1D97BD2800249CA1 /* AppDelegate.swift in Sources */,
